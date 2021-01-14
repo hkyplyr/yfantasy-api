@@ -131,4 +131,5 @@ class YahooFantasyApi:
         return self.__get_league_resource(f'players;start={start};out=ownership/stats;type=date;date={date}', with_metadata)
 
     def get_stats_players_season(self, start, with_metadata=False):
-        return self.__get_league_resource('players;start={};sort=AR/stats;type=season;season=2020'.format(start), with_metadata)
+        return self.__get_league_resource('players;start={};sort=AR/stats;type=season;season=2020'.format(start),
+                                          with_metadata)
