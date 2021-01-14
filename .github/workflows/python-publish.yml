@@ -20,7 +20,7 @@ jobs:
         python-version: '3.9'
     - name: Autobump version
       run: |
-        VERSION=$(echo $GITHUB_REF | set 's#.*/v##')
+        VERSION=$(echo $GITHUB_REF | sed 's#.*/v##')
         PLACEHOLDER='__version__ = "develop"'
         VERSION_FILE='yfantasy_api/__init__.py'
         echo $GITHUB_REF
