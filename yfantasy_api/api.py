@@ -1,7 +1,8 @@
-from auth import AuthenticationService
 import requests
 import sys
 import time
+
+from yahoo_api.auth import AuthenticationService
 
 BASE_URL = 'https://fantasysports.yahooapis.com/fantasy/v2'
 
@@ -34,15 +35,12 @@ class YahooFantasyApi:
 
         time.sleep(1)
 
-        try:
-            response = requests.get(url, params=params, headers=headers)
-            if response.status_code == 200:
-                return response.json()['fantasy_content']
-            else:
-                print(response.status_code, response.text)
-                sys.exit()
-        except:
-            print(sys.exc_info()[0])
+        response = requests.get(url, params=params, headers=headers)
+        if response.status_code == 200:
+            return response.json()['fantasy_content']
+        else:
+            print(response.status_code, response.text)
+            sys.exit()
 
     def __get(self, resource, key, sub_resource, with_metadata):
         path = f'{resource}/{key}/{sub_resource}'
