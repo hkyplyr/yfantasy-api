@@ -2,7 +2,7 @@ import requests
 import sys
 import time
 
-from yahoo_api.auth import AuthenticationService
+from yfantasy_api.auth import AuthenticationService
 
 BASE_URL = 'https://fantasysports.yahooapis.com/fantasy/v2'
 
