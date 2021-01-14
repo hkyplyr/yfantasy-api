@@ -61,10 +61,6 @@ class YahooFantasyApi:
         league_key = f'{self.game_id}.l.{self.league_id}'
         return self.__get('league', league_key, sub_resource, with_metadata)
 
-    def __get_player_resource(self, sub_resource, player_id, with_metadata):
-        player_key = f'{self.game_id}.p.{player_id}'
-        return self.__get('player', player_key, sub_resource, with_metadata)
-
     def __get_team_resource(self, sub_resource, team_id, with_metadata):
         team_key = f'{self.game_id}.l.{self.league_id}.t.{team_id}'
         return self.__get('team', team_key, sub_resource, with_metadata)
@@ -128,11 +124,11 @@ class YahooFantasyApi:
         return self.__get_team_resource(f'roster;{time_filter}/players/stats', team_id, with_metadata)
 
     # TODO - Finish updating the rest of the endpoints
-    def get_league_player_ownership(self, start):
-        return self.__get_league_resource(f'players;start={start};type=season/ownership')
+    def get_league_player_ownership(self, start, with_metadata=False):
+        return self.__get_league_resource(f'players;start={start};type=season/ownership', with_metadata)
 
-    def get_league_player_stats(self, start, date):
-        return self.__get_league_resource(f'players;start={start};out=ownership/stats;type=date;date={date}')
+    def get_league_player_stats(self, start, date, with_metadata=False):
+        return self.__get_league_resource(f'players;start={start};out=ownership/stats;type=date;date={date}', with_metadata)
 
-    def get_stats_players_season(self, start):
-        return self.__get_league_resource('players;start={};sort=AR/stats;type=season;season=2020'.format(start))
+    def get_stats_players_season(self, start, with_metadata=False):
+        return self.__get_league_resource('players;start={};sort=AR/stats;type=season;season=2020'.format(start), with_metadata)
