@@ -46,9 +46,9 @@ class YahooFantasyApi:
         path = f'{resource}/{key}/{sub_resource}'
         response = self.__get_resource(path)[resource]
         if with_metadata:
-            return response[0], response[1]
+            return response[0], response[1][sub_resource]
         else:
-            return response[1]
+            return response[1][sub_resource]
 
     def __get_user_resource(self, sub_resource, with_metadata):
         return self.__get_resource(f'users;use_login=1/{sub_resource}')['users']
