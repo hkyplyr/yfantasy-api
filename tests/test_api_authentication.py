@@ -1,3 +1,4 @@
+import json
 import requests_mock
 import time
 
@@ -18,8 +19,13 @@ def setup(mocker):
     mocker.patch.object(AuthenticationService, 'refresh_tokens').return_val = None
 
 
+def get_response_stub():
+    with open('tests/resources/api_response_stub.json') as f:
+        return f.read()
+
+
 def test_get_resource_valid_tokens(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='{"fantasy_content": {"game": "data"}}')
+    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
 
     yfs, _ = make_api_call(is_valid=True)
 
@@ -27,7 +33,7 @@ def test_get_resource_valid_tokens(requests_mock):
 
 
 def test_get_resource_invalid_tokens(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='{"fantasy_content": {"game": "data"}}')
+    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
 
     yfs, _ = make_api_call(is_valid=False)
 
@@ -35,17 +41,17 @@ def test_get_resource_invalid_tokens(requests_mock):
 
 
 def test_response_code_not_200(requests_mock, mocker):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='{"fantasy_content": {"game": "data"}}', status_code=400)
+    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='Error!', status_code=400)
     with raises(SystemExit) as sys_exit_e:
         make_api_call()
     assert sys_exit_e.type == SystemExit
 
 
 def test_response_with_metadata(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='{"fantasy_content": {"game": ["data", "data2"]}}')
+    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
 
     _, resp = make_api_call(with_metadata=True)
-    assert resp[0] == 'data'
+    assert resp[0] == {'data': 'data'}
     assert resp[1] == 'data2'
 
 
