@@ -1,7 +1,8 @@
+import requests_mock
+import time
+
 from pytest import fixture, raises
 from pytest_mock import mocker
-from time import time
-import requests_mock
 
 from yfantasy_api.api import YahooFantasyApi, BASE_URL
 from yfantasy_api.auth import AuthenticationService
@@ -50,5 +51,5 @@ def test_response_with_metadata(requests_mock):
 
 def make_api_call(is_valid=True, with_metadata=False):
     yfs = YahooFantasyApi(123456)
-    yfs.expires_by = time() + 1000 if is_valid else time() - 1000
+    yfs.expires_by = time.time() + 1000 if is_valid else time.time() - 1000
     return yfs, yfs.get_game_weeks(with_metadata)
