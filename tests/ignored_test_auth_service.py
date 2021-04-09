@@ -5,7 +5,7 @@ import requests_mock
 from pytest import fixture
 from unittest import mock
 
-from yfantasy_api import auth
+from yfantasy_api.api import auth
 
 
 @fixture(autouse=True)

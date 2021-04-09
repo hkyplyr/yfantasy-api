@@ -15,14 +15,75 @@ BASE_URL = 'https://fantasysports.yahooapis.com/fantasy/v2'
 
 
 class AuthenticationService:
+    """Responsible for obtaining, checking, and refreshing tokens as needed
+
+    This service has two main ways to authenticate a user with Yahoo.
+    If the user hasn't used this library before the service obtains a new set
+    of oauth tokens from Yahoo via the `__client_id` and `__client_secret`.
+    If the user has used this library before and a `.tokens.json` file exists
+    the `__access_token` is read in from that file and checked for expiry. If
+    the token has already expired this service will refresh the token, otherwise
+    it is good to be used.
+
+    Attribute
+    ----------
+    __client_id: str
+        The user's client_id read in through the `CLIENT_ID` env variable
+    ___client_secret: str
+        The user's client_secret read in through the `CLIENT_SECRET` env variable
+    __access_token: str
+        The current access token used for authenticating requests to Yahoo
+    __refresh_token: str
+        The current refresh token used for refreshing the access token
+    __expires_by: float
+        The expiry of the current access token, used to determine when to refresh
+    """
+
     def __init__(self):
+        """Initialize a new AuthenticationService
+
+        The initialization consists of reading in the client id and secret
+        from their respective env variables, loading existing tokens or
+        retrieving new tokens, and finally caching the tokens into the
+        `.tokens.json` file.
+        """
         self.__set_credentials()
         self.__set_tokens()
         self.__cache_tokens()
 
-    ###################
-    # Private methods
-    ###################
+    def refresh_tokens(self):
+        """Retrieve a new access token using the refresh token.
+
+        When this method is called a new request is built to obtain
+        a new set of oauth tokens from Yahoo by providing the
+        `__client_id`, `__client_secret`, and `__refresh_token`.
+        """
+        data = {
+            'client_id': self.__client_id,
+            'client_secret': self.__client_secret,
+            'redirect_uri': 'oob',
+            'refresh_token': self.__refresh_token,
+            'grant_type': 'refresh_token',
+        }
+
+        tokens = requests.post(TOKEN_URL, data=data).json()
+        self.__cache_refreshed_tokens(tokens)
+
+    def get_access_token(self):
+        """A simple getter for obtaining the access token.
+        """
+        return self.__access_token
+
+    def get_refresh_token(self):
+        """A simple getter for obtaining the refresh token.
+        """
+        return self.__refresh_token
+
+    def get_expires_by(self):
+        """A simple getter for obtaining the access token expiry.
+        """
+        return self.__expires_by
+
     def __set_credentials(self):
         self.__client_id = os.getenv('CLIENT_ID')
         self.__client_secret = os.getenv('CLIENT_SECRET')
@@ -93,27 +154,3 @@ class AuthenticationService:
         self.__expires_by = tokens[EXPIRES_IN] + time.time()
 
         self.__cache_tokens()
-
-    ##################
-    # Public methods
-    ##################
-    def refresh_tokens(self):
-        data = {
-            'client_id': self.__client_id,
-            'client_secret': self.__client_secret,
-            'redirect_uri': 'oob',
-            'refresh_token': self.__refresh_token,
-            'grant_type': 'refresh_token',
-        }
-
-        tokens = requests.post(TOKEN_URL, data=data).json()
-        self.__cache_refreshed_tokens(tokens)
-
-    def get_access_token(self):
-        return self.__access_token
-
-    def get_refresh_token(self):
-        return self.__refresh_token
-
-    def get_expires_by(self):
-        return self.__expires_by
