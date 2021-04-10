@@ -14,7 +14,7 @@ if __name__ == "__main__":
         author_email='tpaqu15@gmail.com',
         description='Python package to access the Yahoo! Fantasy APIs',
         long_description=long_description,
-        long_description_content_Type='text/markdown',
+        long_description_content_type='text/markdown',
         url='https://github.com/hkyplyr/yfantasy-api',
         packages=setuptools.find_packages(),
         classifiers=[],
