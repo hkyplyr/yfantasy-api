@@ -41,6 +41,6 @@ def test_response_code_not_200(requests_mock, mocker):
 
 
 def make_api_call(is_valid=True, with_metadata=False):
-    yfs = YahooFantasyApi(123456, 'nhl')
+    yfs = YahooFantasyApi(123456, 'nhl', timeout=0)
     yfs.expires_by = time.time() + 1000 if is_valid else time.time() - 1000
     return yfs, yfs.game().get()
