@@ -38,8 +38,9 @@ class YahooFantasyApi:
         The timestamp indicating when the current access_token expires
     """
 
+    base_url = 'https://fantasysports.yahooapis.com/fantasy/v2'
+
     def __init__(self, league_id, game_id):
-        self.base_url = 'https://fantasysports.yahooapis.com/fantasy/v2'
         self.league_id = league_id
         self.game_id = game_id
         self.auth_service = AuthenticationService()

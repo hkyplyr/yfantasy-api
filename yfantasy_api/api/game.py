@@ -86,7 +86,7 @@ class GameApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__url = f'/game/{self.__yfantasy_api.game_id}'
+        self.__url = f'game/{self.__yfantasy_api.game_id}'
         self.path = ''
 
     def game_weeks(self):
