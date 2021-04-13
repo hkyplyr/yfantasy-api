@@ -1,0 +1,3112 @@
+{
+  "fantasy_content": {
+    "users": {
+      "0": {
+        "user": [
+          {
+            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM"
+          },
+          {
+            "teams": {
+              "0": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "One Barrel at a Time"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d906ebfd61c573f9c3824955f084cf123d392c1e6ccf47d8ceb2028535150a7f.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 10
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "20"
+                    },
+                    {
+                      "number_of_trades": "4"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 13,
+                        "value": "1"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "712",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "1": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.100585.t.7"
+                    },
+                    {
+                      "team_id": "7"
+                    },
+                    {
+                      "name": "Tkachuk E. Cheese"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/100585/7"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_10_t.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    {
+                      "faab_balance": "98"
+                    },
+                    {
+                      "number_of_moves": "6"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 13,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 3
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "7",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "712",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "2": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.36409.t.10"
+                    },
+                    {
+                      "team_id": "10"
+                    },
+                    {
+                      "name": "Baskin-Dobbins"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/36409/10"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2e15814c52035696f94ac1bd167feeb6d0475c660458424d09e64a8394c4e94c.png"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "1"
+                    },
+                    {
+                      "waiver_priority": 2
+                    },
+                    {
+                      "faab_balance": "43"
+                    },
+                    {
+                      "number_of_moves": "29"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C+",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/36409/10/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "10",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "3": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.381090.t.8"
+                    },
+                    {
+                      "team_id": "8"
+                    },
+                    {
+                      "name": "Baby  Chark"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/381090/8"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/6aced31d947baef84ce79ab03aa17d649e84532492cc544d8d51537c32ca5340.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    [],
+                    {
+                      "number_of_moves": "24"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 4
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C+",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/381090/8/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "8",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "4": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.903720.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "Kamara Murdered Keeg"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/903720/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_k.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 10
+                    },
+                    {
+                      "faab_balance": "0"
+                    },
+                    {
+                      "number_of_moves": "36"
+                    },
+                    {
+                      "number_of_trades": "1"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 10
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/903720/1/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "5": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.1007569.t.2"
+                    },
+                    {
+                      "team_id": "2"
+                    },
+                    {
+                      "name": "Dalvin and Hobbes"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/1007569/2"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2651fc12edff7ce9ad6f153b10b416795562c65723c7dfbbfe4fdb9242d7142e.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 10
+                    },
+                    [],
+                    {
+                      "number_of_moves": "25"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 8
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/1007569/2/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "2",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "6": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.1116690.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "FreshPrinceofHelaire"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/1116690/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/03c97015876a45cd4dfaee29d3c973d99aea5c3eedea687db495f396767f8f81.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 5
+                    },
+                    [],
+                    {
+                      "number_of_moves": "23"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 9
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/1116690/6/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "7": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.1116713.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "Quon Solo"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/1116713/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/df77abf486cfab0fbb98a450f98cc02a241b2b8defe54be63c1596b0ceb4c074.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    [],
+                    {
+                      "number_of_moves": "28"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 2
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/1116713/6/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "8": {
+                "team": [
+                  [
+                    {
+                      "team_key": "399.l.1142230.t.7"
+                    },
+                    {
+                      "team_id": "7"
+                    },
+                    {
+                      "name": "Jurassic Chark"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2020/f1/1142230/7"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/e60b37da8627b4d7517b40b8783a160eb621e8f30dc87f53e0ec8f5f013daa07.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    [],
+                    {
+                      "number_of_moves": "24"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 3
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2020/f1/1142230/7/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "7",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "750",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "9": {
+                "team": [
+                  [
+                    {
+                      "team_key": "363.l.1787.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "OEL Sweedwagon"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2016/hockey/1787/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708378033_9d8f6bb19f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    {
+                      "faab_balance": "80"
+                    },
+                    {
+                      "number_of_moves": "8"
+                    },
+                    {
+                      "number_of_trades": "5"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "24",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "639",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "10": {
+                "team": [
+                  [
+                    {
+                      "team_key": "363.l.65648.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "SticksOutForHarambe"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2016/hockey/65648/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/30235126546_ef14a09e9b.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    [],
+                    {
+                      "number_of_moves": "3"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "24",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 4
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "639",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "11": {
+                "team": [
+                  [
+                    {
+                      "team_key": "370.l.131660.t.10"
+                    },
+                    {
+                      "team_id": "10"
+                    },
+                    {
+                      "name": "Travis's Team"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://baseball.fantasysports.yahoo.com/2017/b1/131660/10"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/mlb/mlb_3.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    [],
+                    {
+                      "number_of_moves": "1"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 4
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "10",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "575",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "12": {
+                "team": [
+                  [
+                    {
+                      "team_key": "371.l.51801.t.11"
+                    },
+                    {
+                      "team_id": "11"
+                    },
+                    {
+                      "name": "MakeMuricaBrateAgain"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2017/f1/51801/11"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24668657963_52849900ab.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "1"
+                    },
+                    {
+                      "waiver_priority": 13
+                    },
+                    {
+                      "faab_balance": "0"
+                    },
+                    {
+                      "number_of_moves": "24"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C+",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2017/f1/51801/11/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "11",
+                            "nickname": "Ryan",
+                            "guid": "2JTM7GQYNPMDISDQM2YZLZER7Y",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "616",
+                            "felo_tier": "silver"
+                          }
+                        },
+                        {
+                          "manager": {
+                            "manager_id": "17",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_comanager": "1",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "770",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "13": {
+                "team": [
+                  [
+                    {
+                      "team_key": "371.l.1152535.t.10"
+                    },
+                    {
+                      "team_id": "10"
+                    },
+                    {
+                      "name": "Need for Snead"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2017/f1/1152535/10"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    [],
+                    {
+                      "number_of_moves": "39"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 3
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2017/f1/1152535/10/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "10",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "770",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "14": {
+                "team": [
+                  [
+                    {
+                      "team_key": "371.l.1153489.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "Counting Crowells"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2017/f1/1153489/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    [],
+                    {
+                      "number_of_moves": "35"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 7
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2017/f1/1153489/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "770",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "15": {
+                "team": [
+                  [
+                    {
+                      "team_key": "371.l.1167567.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "Reed for Snead"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2017/f1/1167567/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_12.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    [],
+                    {
+                      "number_of_moves": "32"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 9
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2017/f1/1167567/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "770",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "16": {
+                "team": {
+                  "team_key": "369.t.137167",
+                  "team_id": "137167",
+                  "name": "Charitable Donation",
+                  "url": "https://tournament.fantasysports.yahoo.com/t1/137167",
+                  "email": "fakeemail@email.com",
+                  "is_owned_by_current_login": 1,
+                  "user_display_name": "Travis",
+                  "user_profile_image": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                  "team_logo": "https://s.yimg.com/cv/apiv2/default/tourney/bracket-default@3x__1_.png",
+                  "logo_type": "avatar"
+                }
+              },
+              "17": {
+                "team": [
+                  [
+                    {
+                      "team_key": "359.l.31748.t.7"
+                    },
+                    {
+                      "team_id": "7"
+                    },
+                    {
+                      "name": "MakeMuricaBrateAgain"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2016/f1/31748/7"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24668657963_52849900ab.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "3"
+                    },
+                    {
+                      "waiver_priority": 1
+                    },
+                    {
+                      "faab_balance": "69"
+                    },
+                    {
+                      "number_of_moves": "9"
+                    },
+                    {
+                      "number_of_trades": "3"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/31748/7/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "7",
+                            "nickname": "Ryan",
+                            "guid": "2JTM7GQYNPMDISDQM2YZLZER7Y",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "585",
+                            "felo_tier": "bronze"
+                          }
+                        },
+                        {
+                          "manager": {
+                            "manager_id": "17",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_comanager": "1",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "592",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "18": {
+                "team": [
+                  [
+                    {
+                      "team_key": "359.l.503009.t.11"
+                    },
+                    {
+                      "team_id": "11"
+                    },
+                    {
+                      "name": "It's Miller Time"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2016/f1/503009/11"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/28841565594_2a64899759.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "1"
+                    },
+                    {
+                      "waiver_priority": 5
+                    },
+                    [],
+                    {
+                      "number_of_moves": "35"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "2"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 7
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/503009/11/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "11",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "592",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "19": {
+                "team": [
+                  [
+                    {
+                      "team_key": "359.l.883277.t.4"
+                    },
+                    {
+                      "team_id": "4"
+                    },
+                    {
+                      "name": "Dude Where's My Carr"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2016/f1/883277/4"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/28841848504_d005e95a08.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    [],
+                    {
+                      "number_of_moves": "21"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 9
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C+",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/883277/4/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "4",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "592",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "20": {
+                "team": [
+                  [
+                    {
+                      "team_key": "359.l.1241.t.18"
+                    },
+                    {
+                      "team_id": "18"
+                    },
+                    {
+                      "name": "TBD"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2016/f1/1241/18"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25040028010_38696e206a.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "2"
+                    },
+                    {
+                      "waiver_priority": 12
+                    },
+                    [],
+                    {
+                      "number_of_moves": "14"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "D",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/1241/18/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "18",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "592",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "21": {
+                "team": [
+                  [
+                    {
+                      "team_key": "303.l.35104.t.8"
+                    },
+                    {
+                      "team_id": "8"
+                    },
+                    {
+                      "name": "Made in Kariya"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2012/hockey/35104/8"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/dh/ap/fantasy/img/profile_96.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    [],
+                    {
+                      "number_of_moves": "11"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "point"
+                    },
+                    [],
+                    {
+                      "draft_position": 8
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "8",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "22": {
+                "team": [
+                  [
+                    {
+                      "team_key": "321.l.44249.t.2"
+                    },
+                    {
+                      "team_id": "2"
+                    },
+                    {
+                      "name": "Password is Turco"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2013/hockey/44249/2"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24922099099_8e9530cdde.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    [],
+                    {
+                      "number_of_moves": "10"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "point"
+                    },
+                    [],
+                    {
+                      "draft_position": 9
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "2",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "23": {
+                "team": [
+                  [
+                    {
+                      "team_key": "321.l.110422.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "Password is Turco"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2013/hockey/110422/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24922099099_8e9530cdde.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    [],
+                    {
+                      "number_of_moves": "4"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 10
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "619",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "24": {
+                "team": [
+                  [
+                    {
+                      "team_key": "331.l.450795.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "TBD"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2014/f1/450795/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "1"
+                    },
+                    {
+                      "waiver_priority": 14
+                    },
+                    [],
+                    {
+                      "number_of_moves": "33"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "3"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 5
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B-",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/450795/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "722",
+                            "felo_tier": "gold"
+                          }
+                        },
+                        {
+                          "manager": {
+                            "manager_id": "11",
+                            "nickname": "melanie",
+                            "guid": "RDXW2HDHYVTYDDYESGHQW5ISHU",
+                            "is_comanager": "1",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "25": {
+                "team": [
+                  [
+                    {
+                      "team_key": "341.l.23724.t.8"
+                    },
+                    {
+                      "team_id": "8"
+                    },
+                    {
+                      "name": "I Shatt Myself"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2014/hockey/23724/8"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24955771139_36ceb5fc63.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 3
+                    },
+                    [],
+                    {
+                      "number_of_moves": "15"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "point"
+                    },
+                    [],
+                    {
+                      "draft_position": 10
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "8",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "26": {
+                "team": [
+                  [
+                    {
+                      "team_key": "341.l.117942.t.4"
+                    },
+                    {
+                      "team_id": "4"
+                    },
+                    {
+                      "name": "Travis's Boss Team"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2014/hockey/117942/4"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_3.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 12
+                    },
+                    [],
+                    {
+                      "number_of_moves": "6"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    {
+                      "auction_budget_total": "200"
+                    },
+                    {
+                      "auction_budget_spent": 200
+                    },
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "4",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "571",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "27": {
+                "team": [
+                  [
+                    {
+                      "team_key": "342.l.183983.t.12"
+                    },
+                    {
+                      "team_id": "12"
+                    },
+                    {
+                      "name": "Travis's Team"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://basketball.fantasysports.yahoo.com/2014/nba/183983/12"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nba/nba_2.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    [],
+                    {
+                      "number_of_moves": 0
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "24",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 6
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "12",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "659",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "28": {
+                "team": [
+                  [
+                    {
+                      "team_key": "352.l.503.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "OEL Sweedwagon"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2015/hockey/503/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708378033_9d8f6bb19f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    {
+                      "faab_balance": "38"
+                    },
+                    {
+                      "number_of_moves": "24"
+                    },
+                    {
+                      "number_of_trades": "5"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "665",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "29": {
+                "team": {
+                  "team_key": "356.t.662934",
+                  "team_id": "662934",
+                  "name": "Travis",
+                  "url": "https://tournament.fantasysports.yahoo.com/t1/662934",
+                  "email": "fakeemail@email.com",
+                  "is_owned_by_current_login": 1,
+                  "user_display_name": "Travis",
+                  "user_profile_image": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                  "team_logo": "https://s.yimg.com/cv/apiv2/default/tourney/bracket-default@3x__1_.png",
+                  "is_in_contest": 1,
+                  "logo_type": "avatar"
+                }
+              },
+              "30": {
+                "team": [
+                  [
+                    {
+                      "team_key": "376.l.175.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "OEL Sweedwagon"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2017/hockey/175/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708378033_9d8f6bb19f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "8"
+                    },
+                    {
+                      "number_of_trades": "1"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "24",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "763",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "31": {
+                "team": [
+                  [
+                    {
+                      "team_key": "378.l.171912.t.8"
+                    },
+                    {
+                      "team_id": "8"
+                    },
+                    {
+                      "name": "Trevor Ending Story"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://baseball.fantasysports.yahoo.com/2018/b1/171912/8"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/28658336809_703c5f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    [],
+                    {
+                      "number_of_moves": "2"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "25",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 4
+                    },
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "8",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "585",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "32": {
+                "team": [
+                  [
+                    {
+                      "team_key": "380.l.13131.t.14"
+                    },
+                    {
+                      "team_id": "14"
+                    },
+                    {
+                      "name": "J.A.R.V.I.S"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2018/f1/13131/14"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/39433497913_3078a0.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "2"
+                    },
+                    {
+                      "waiver_priority": 2
+                    },
+                    {
+                      "faab_balance": "0"
+                    },
+                    {
+                      "number_of_moves": "33"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C+",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/13131/14/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "14",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "812",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "33": {
+                "team": [
+                  [
+                    {
+                      "team_key": "380.l.1503520.t.2"
+                    },
+                    {
+                      "team_id": "2"
+                    },
+                    {
+                      "name": "FournetteFlixNChill"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2018/f1/1503520/2"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/39432287753_fb74a9.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 2
+                    },
+                    [],
+                    {
+                      "number_of_moves": "20"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 7
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/1503520/2/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "2",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "812",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "34": {
+                "team": [
+                  [
+                    {
+                      "team_key": "380.l.1512033.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "No Bell Prize Winner"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2018/f1/1512033/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/39432308723_f50194.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    [],
+                    {
+                      "number_of_moves": "23"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 3
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/1512033/6/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "812",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "35": {
+                "team": [
+                  [
+                    {
+                      "team_key": "380.l.1564977.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "StraightOuttaHopkins"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2018/f1/1564977/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/29933468609_d94e0d.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    [],
+                    {
+                      "number_of_moves": "19"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 7
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C-",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/1564977/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "812",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "36": {
+                "team": [
+                  [
+                    {
+                      "team_key": "386.l.1994.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "OEL Sweedwagon"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2018/hockey/1994/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708378033_9d8f6bb19f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 10
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "13"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "24",
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "734",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "37": {
+                "team": [
+                  [
+                    {
+                      "team_key": "390.l.20881.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "J.A.R.V.I.S"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2019/f1/20881/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/39433497913_3078a0.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "division_id": "3"
+                    },
+                    {
+                      "waiver_priority": 6
+                    },
+                    {
+                      "faab_balance": "0"
+                    },
+                    {
+                      "number_of_moves": "27"
+                    },
+                    {
+                      "number_of_trades": "1"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "B",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2019/f1/20881/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "747",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "38": {
+                "team": [
+                  [
+                    {
+                      "team_key": "390.l.300871.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "Travis's Team"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://football.fantasysports.yahoo.com/2019/f1/300871/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_t.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    [],
+                    {
+                      "number_of_moves": "17"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "17",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "head"
+                    },
+                    [],
+                    {
+                      "draft_position": 5
+                    },
+                    {
+                      "has_draft_grade": 1,
+                      "draft_grade": "C",
+                      "draft_recap_url": "https://football.fantasysports.yahoo.com/2019/f1/300871/9/draftrecap"
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_current_login": "1",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "747",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "39": {
+                "team": [
+                  [
+                    {
+                      "team_key": "396.l.5194.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "OEL Sweedwagon"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/2019/hockey/5194/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708378033_9d8f6bb19f.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "12"
+                    },
+                    {
+                      "number_of_trades": "3"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": "21",
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "667",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "count": 40
+            }
+          }
+        ]
+      }
+    }
+  }
+}
