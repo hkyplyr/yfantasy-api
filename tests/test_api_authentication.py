@@ -10,6 +10,8 @@ from yfantasy_api.api.auth import AuthenticationService
 
 @fixture(autouse=True)
 def setup(mocker):
+    mocker.patch.object(AuthenticationService, '_AuthenticationService__cache_tokens').return_val = None
+    mocker.patch.object(AuthenticationService, '_AuthenticationService__set_tokens').return_val = None
     mocker.patch.object(AuthenticationService, 'get_access_token').return_val = 'access_token'
     mocker.patch.object(AuthenticationService, 'get_expires_by').return_val = 'expires_by'
     mocker.patch.object(AuthenticationService, 'get_refresh_token').return_val = 'refresh_token'
