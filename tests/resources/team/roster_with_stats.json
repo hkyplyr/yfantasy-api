@@ -1,0 +1,3892 @@
+{
+  "fantasy_content": {
+    "team": [
+      [
+        {
+          "team_key": "403.l.17457.t.1"
+        },
+        {
+          "team_id": "1"
+        },
+        {
+          "name": "One Barrel at a Time"
+        },
+        {
+          "is_owned_by_current_login": 1
+        },
+        {
+          "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/1"
+        },
+        {
+          "team_logos": [
+            {
+              "team_logo": {
+                "size": "large",
+                "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d906ebfd61c573f9c3824955f084cf123d392c1e6ccf47d8ceb2028535150a7f.png"
+              }
+            }
+          ]
+        },
+        [],
+        {
+          "waiver_priority": 10
+        },
+        {
+          "faab_balance": "100"
+        },
+        {
+          "number_of_moves": "20"
+        },
+        {
+          "number_of_trades": "4"
+        },
+        {
+          "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 13,
+            "value": "1"
+          }
+        },
+        {
+          "clinched_playoffs": 1
+        },
+        {
+          "league_scoring_type": "headpoint"
+        },
+        [],
+        [],
+        {
+          "has_draft_grade": 0
+        },
+        [],
+        [],
+        {
+          "managers": [
+            {
+              "manager": {
+                "manager_id": "1",
+                "nickname": "Travis",
+                "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                "is_commissioner": "1",
+                "is_current_login": "1",
+                "email": "fakeemail@email.com",
+                "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                "felo_score": "712",
+                "felo_tier": "gold"
+              }
+            }
+          ]
+        }
+      ],
+      {
+        "roster": {
+          "coverage_type": "date",
+          "date": "2021-04-12",
+          "is_editable": 1,
+          "0": {
+            "players": {
+              "0": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.7109"
+                    },
+                    {
+                      "player_id": "7109"
+                    },
+                    {
+                      "name": {
+                        "full": "Auston Matthews",
+                        "first": "Auston",
+                        "last": "Matthews",
+                        "ascii_first": "Auston",
+                        "ascii_last": "Matthews"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.7109"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.21"
+                    },
+                    {
+                      "editorial_team_full_name": "Toronto Maple Leafs"
+                    },
+                    {
+                      "editorial_team_abbr": "Tor"
+                    },
+                    {
+                      "uniform_number": "34"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/84wVvT03o6eUTxaNEH6oOQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02152021/7109.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/84wVvT03o6eUTxaNEH6oOQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02152021/7109.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618114880
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "C"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "3"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "3.65"
+                    }
+                  }
+                ]
+              },
+              "1": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4687"
+                    },
+                    {
+                      "player_id": "4687"
+                    },
+                    {
+                      "name": {
+                        "full": "Nazem Kadri",
+                        "first": "Nazem",
+                        "last": "Kadri",
+                        "ascii_first": "Nazem",
+                        "ascii_last": "Kadri"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4687"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.17"
+                    },
+                    {
+                      "editorial_team_full_name": "Colorado Avalanche"
+                    },
+                    {
+                      "editorial_team_abbr": "Col"
+                    },
+                    {
+                      "uniform_number": "91"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/xMxQ7LlOEZU_7MCqmpe2QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/4687.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/xMxQ7LlOEZU_7MCqmpe2QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/4687.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617718065
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "C"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "1"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.20"
+                    }
+                  }
+                ]
+              },
+              "2": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.3357"
+                    },
+                    {
+                      "player_id": "3357"
+                    },
+                    {
+                      "name": {
+                        "full": "Ryan Getzlaf",
+                        "first": "Ryan",
+                        "last": "Getzlaf",
+                        "ascii_first": "Ryan",
+                        "ascii_last": "Getzlaf"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.3357"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.25"
+                    },
+                    {
+                      "editorial_team_full_name": "Anaheim Ducks"
+                    },
+                    {
+                      "editorial_team_abbr": "Anh"
+                    },
+                    {
+                      "uniform_number": "15"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/weglW8XqxA42lQosbgtKyQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11262019/3357.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/weglW8XqxA42lQosbgtKyQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11262019/3357.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618177254
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "C"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "3": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5363"
+                    },
+                    {
+                      "player_id": "5363"
+                    },
+                    {
+                      "name": {
+                        "full": "Gabriel Landeskog",
+                        "first": "Gabriel",
+                        "last": "Landeskog",
+                        "ascii_first": "Gabriel",
+                        "ascii_last": "Landeskog"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5363"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.17"
+                    },
+                    {
+                      "editorial_team_full_name": "Colorado Avalanche"
+                    },
+                    {
+                      "editorial_team_abbr": "Col"
+                    },
+                    {
+                      "uniform_number": "92"
+                    },
+                    {
+                      "display_position": "C,LW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/w5sVzML8wS3Cdfl.9YiR2g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/5363.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/w5sVzML8wS3Cdfl.9YiR2g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/5363.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618188774
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "LW"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.65"
+                    }
+                  }
+                ]
+              },
+              "4": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6751"
+                    },
+                    {
+                      "player_id": "6751"
+                    },
+                    {
+                      "name": {
+                        "full": "Timo Meier",
+                        "first": "Timo",
+                        "last": "Meier",
+                        "ascii_first": "Timo",
+                        "ascii_last": "Meier"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6751"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.18"
+                    },
+                    {
+                      "editorial_team_full_name": "San Jose Sharks"
+                    },
+                    {
+                      "editorial_team_abbr": "SJ"
+                    },
+                    {
+                      "uniform_number": "28"
+                    },
+                    {
+                      "display_position": "LW,RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/XLxAIpQVMuEUX2ZT6Xs71Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10222019/6751.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/XLxAIpQVMuEUX2ZT6Xs71Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10222019/6751.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "LW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618118672
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "LW"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "5": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4240"
+                    },
+                    {
+                      "player_id": "4240"
+                    },
+                    {
+                      "name": {
+                        "full": "Patrick Kane",
+                        "first": "Patrick",
+                        "last": "Kane",
+                        "ascii_first": "Patrick",
+                        "ascii_last": "Kane"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4240"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.4"
+                    },
+                    {
+                      "editorial_team_full_name": "Chicago Blackhawks"
+                    },
+                    {
+                      "editorial_team_abbr": "Chi"
+                    },
+                    {
+                      "uniform_number": "88"
+                    },
+                    {
+                      "display_position": "RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/ubeLi2Z1CNRX2c6b.SWUQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11182019/4240.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/ubeLi2Z1CNRX2c6b.SWUQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11182019/4240.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "RW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617767168
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "RW"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "10"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "9.50"
+                    }
+                  }
+                ]
+              },
+              "6": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6746"
+                    },
+                    {
+                      "player_id": "6746"
+                    },
+                    {
+                      "name": {
+                        "full": "Mitchell Marner",
+                        "first": "Mitchell",
+                        "last": "Marner",
+                        "ascii_first": "Mitchell",
+                        "ascii_last": "Marner"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6746"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.21"
+                    },
+                    {
+                      "editorial_team_full_name": "Toronto Maple Leafs"
+                    },
+                    {
+                      "editorial_team_abbr": "Tor"
+                    },
+                    {
+                      "uniform_number": "16"
+                    },
+                    {
+                      "display_position": "RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/mQVTlWmAdO5DefCiQ_p7qg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02152021/6746.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/mQVTlWmAdO5DefCiQ_p7qg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02152021/6746.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "RW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618115256
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "RW"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "5"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "2.95"
+                    }
+                  }
+                ]
+              },
+              "7": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4974"
+                    },
+                    {
+                      "player_id": "4974"
+                    },
+                    {
+                      "name": {
+                        "full": "Jaden Schwartz",
+                        "first": "Jaden",
+                        "last": "Schwartz",
+                        "ascii_first": "Jaden",
+                        "ascii_last": "Schwartz"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4974"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.19"
+                    },
+                    {
+                      "editorial_team_full_name": "St. Louis Blues"
+                    },
+                    {
+                      "editorial_team_abbr": "StL"
+                    },
+                    {
+                      "uniform_number": "17"
+                    },
+                    {
+                      "display_position": "LW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/Ux0ResoH3_zjEv5i0yuTKw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02112021/4974.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/Ux0ResoH3_zjEv5i0yuTKw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02112021/4974.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "LW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618063802
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "F"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "8": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6743"
+                    },
+                    {
+                      "player_id": "6743"
+                    },
+                    {
+                      "name": {
+                        "full": "Connor McDavid",
+                        "first": "Connor",
+                        "last": "McDavid",
+                        "ascii_first": "Connor",
+                        "ascii_last": "McDavid"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6743"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.6"
+                    },
+                    {
+                      "editorial_team_full_name": "Edmonton Oilers"
+                    },
+                    {
+                      "editorial_team_abbr": "Edm"
+                    },
+                    {
+                      "uniform_number": "97"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/lNwMmp00V85Im_apodnw8g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01252021/6743.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/lNwMmp00V85Im_apodnw8g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01252021/6743.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618138661
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "F"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "9": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5983"
+                    },
+                    {
+                      "player_id": "5983"
+                    },
+                    {
+                      "name": {
+                        "full": "Seth Jones",
+                        "first": "Seth",
+                        "last": "Jones",
+                        "ascii_first": "Seth",
+                        "ascii_last": "Jones"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5983"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.29"
+                    },
+                    {
+                      "editorial_team_full_name": "Columbus Blue Jackets"
+                    },
+                    {
+                      "editorial_team_abbr": "Cls"
+                    },
+                    {
+                      "uniform_number": "3"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/I86uJQJiJxC52MbztdTJsA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/03082021/5983.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/I86uJQJiJxC52MbztdTJsA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/03082021/5983.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    [],
+                    [],
+                    []
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "D"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "4"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "1"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "3.90"
+                    }
+                  }
+                ]
+              },
+              "10": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4849"
+                    },
+                    {
+                      "player_id": "4849"
+                    },
+                    {
+                      "name": {
+                        "full": "Jeff Petry",
+                        "first": "Jeff",
+                        "last": "Petry",
+                        "ascii_first": "Jeff",
+                        "ascii_last": "Petry"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4849"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.10"
+                    },
+                    {
+                      "editorial_team_full_name": "Montreal Canadiens"
+                    },
+                    {
+                      "editorial_team_abbr": "Mon"
+                    },
+                    {
+                      "uniform_number": "26"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/.B0wo.uGsWrexUGmhED4cw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11122019/4849.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/.B0wo.uGsWrexUGmhED4cw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11122019/4849.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    [],
+                    [],
+                    []
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "D"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "2"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "4.80"
+                    }
+                  }
+                ]
+              },
+              "11": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5281"
+                    },
+                    {
+                      "player_id": "5281"
+                    },
+                    {
+                      "name": {
+                        "full": "Tyson Barrie",
+                        "first": "Tyson",
+                        "last": "Barrie",
+                        "ascii_first": "Tyson",
+                        "ascii_last": "Barrie"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5281"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.6"
+                    },
+                    {
+                      "editorial_team_full_name": "Edmonton Oilers"
+                    },
+                    {
+                      "editorial_team_abbr": "Edm"
+                    },
+                    {
+                      "uniform_number": "22"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/NWbaPm9dmjFTG8WQMAmYrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01252021/5281.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/NWbaPm9dmjFTG8WQMAmYrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01252021/5281.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618116901
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "D"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "12": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4732"
+                    },
+                    {
+                      "player_id": "4732"
+                    },
+                    {
+                      "name": {
+                        "full": "T.J. Brodie",
+                        "first": "T.J.",
+                        "last": "Brodie",
+                        "ascii_first": "T.J.",
+                        "ascii_last": "Brodie"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4732"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.21"
+                    },
+                    {
+                      "editorial_team_full_name": "Toronto Maple Leafs"
+                    },
+                    {
+                      "editorial_team_abbr": "Tor"
+                    },
+                    {
+                      "uniform_number": "78"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/Y5OqwGwt7WUyqo.BvbYSyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01212021/4732.1.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/Y5OqwGwt7WUyqo.BvbYSyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01212021/4732.1.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    [],
+                    [],
+                    []
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "D"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "2"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "1.05"
+                    }
+                  }
+                ]
+              },
+              "13": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5232"
+                    },
+                    {
+                      "player_id": "5232"
+                    },
+                    {
+                      "name": {
+                        "full": "Jared Spurgeon",
+                        "first": "Jared",
+                        "last": "Spurgeon",
+                        "ascii_first": "Jared",
+                        "ascii_last": "Spurgeon"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5232"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.30"
+                    },
+                    {
+                      "editorial_team_full_name": "Minnesota Wild"
+                    },
+                    {
+                      "editorial_team_abbr": "Min"
+                    },
+                    {
+                      "uniform_number": "46"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/CY3tp0PjuBlZtoHa48PaFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11222019/5232.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/CY3tp0PjuBlZtoHa48PaFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11222019/5232.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617858004
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "D"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "14": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5994"
+                    },
+                    {
+                      "player_id": "5994"
+                    },
+                    {
+                      "name": {
+                        "full": "Ryan Pulock",
+                        "first": "Ryan",
+                        "last": "Pulock",
+                        "ascii_first": "Ryan",
+                        "ascii_last": "Pulock"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5994"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.12"
+                    },
+                    {
+                      "editorial_team_full_name": "New York Islanders"
+                    },
+                    {
+                      "editorial_team_abbr": "NYI"
+                    },
+                    {
+                      "uniform_number": "6"
+                    },
+                    {
+                      "display_position": "D"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/_vfXTwK4yqlgH8viGchB9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01222021/5994.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/_vfXTwK4yqlgH8viGchB9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01222021/5994.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "D"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "D"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618195963
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "15": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4921"
+                    },
+                    {
+                      "player_id": "4921"
+                    },
+                    {
+                      "name": {
+                        "full": "Mats Zuccarello",
+                        "first": "Mats",
+                        "last": "Zuccarello",
+                        "ascii_first": "Mats",
+                        "ascii_last": "Zuccarello"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4921"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.30"
+                    },
+                    {
+                      "editorial_team_full_name": "Minnesota Wild"
+                    },
+                    {
+                      "editorial_team_abbr": "Min"
+                    },
+                    {
+                      "uniform_number": "36"
+                    },
+                    {
+                      "display_position": "RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/TBUKtu4FdNkXwbWVj5JB4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/4921.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/TBUKtu4FdNkXwbWVj5JB4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/4921.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "RW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617807387
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "16": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6762"
+                    },
+                    {
+                      "player_id": "6762"
+                    },
+                    {
+                      "name": {
+                        "full": "Joel Eriksson Ek",
+                        "first": "Joel",
+                        "last": "Eriksson Ek",
+                        "ascii_first": "Joel",
+                        "ascii_last": "Eriksson Ek"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6762"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.30"
+                    },
+                    {
+                      "editorial_team_full_name": "Minnesota Wild"
+                    },
+                    {
+                      "editorial_team_abbr": "Min"
+                    },
+                    {
+                      "uniform_number": "14"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/vmsl2o1Ovw_MAFXjnZYUSg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11222019/6762.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/vmsl2o1Ovw_MAFXjnZYUSg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11222019/6762.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617509151
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "17": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4990"
+                    },
+                    {
+                      "player_id": "4990"
+                    },
+                    {
+                      "name": {
+                        "full": "Brock Nelson",
+                        "first": "Brock",
+                        "last": "Nelson",
+                        "ascii_first": "Brock",
+                        "ascii_last": "Nelson"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4990"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.12"
+                    },
+                    {
+                      "editorial_team_full_name": "New York Islanders"
+                    },
+                    {
+                      "editorial_team_abbr": "NYI"
+                    },
+                    {
+                      "uniform_number": "29"
+                    },
+                    {
+                      "display_position": "C"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/cFoD2N7TRLIoeelR.9e5gA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01222021/4990.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/cFoD2N7TRLIoeelR.9e5gA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01222021/4990.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "C"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "C"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1617761348
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "18": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.3637"
+                    },
+                    {
+                      "player_id": "3637"
+                    },
+                    {
+                      "name": {
+                        "full": "Alex Ovechkin",
+                        "first": "Alex",
+                        "last": "Ovechkin",
+                        "ascii_first": "Alex",
+                        "ascii_last": "Ovechkin"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.3637"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.23"
+                    },
+                    {
+                      "editorial_team_full_name": "Washington Capitals"
+                    },
+                    {
+                      "editorial_team_abbr": "Was"
+                    },
+                    {
+                      "uniform_number": "8"
+                    },
+                    {
+                      "display_position": "LW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/dI55MnnZeyLTiv6mJ3kghg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02102021/3637.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/dI55MnnZeyLTiv6mJ3kghg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02102021/3637.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "LW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618021620
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "19": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6057"
+                    },
+                    {
+                      "player_id": "6057"
+                    },
+                    {
+                      "name": {
+                        "full": "Jake Guentzel",
+                        "first": "Jake",
+                        "last": "Guentzel",
+                        "ascii_first": "Jake",
+                        "ascii_last": "Guentzel"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6057"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.16"
+                    },
+                    {
+                      "editorial_team_full_name": "Pittsburgh Penguins"
+                    },
+                    {
+                      "editorial_team_abbr": "Pit"
+                    },
+                    {
+                      "uniform_number": "59"
+                    },
+                    {
+                      "display_position": "LW,RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/LjNbo7j3GW2QDVRVOmjMNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/03092021/6057.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/LjNbo7j3GW2QDVRVOmjMNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/03092021/6057.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "LW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618193249
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "20": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.5085"
+                    },
+                    {
+                      "player_id": "5085"
+                    },
+                    {
+                      "name": {
+                        "full": "Philipp Grubauer",
+                        "first": "Philipp",
+                        "last": "Grubauer",
+                        "ascii_first": "Philipp",
+                        "ascii_last": "Grubauer"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.5085"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.17"
+                    },
+                    {
+                      "editorial_team_full_name": "Colorado Avalanche"
+                    },
+                    {
+                      "editorial_team_abbr": "Col"
+                    },
+                    {
+                      "uniform_number": "31"
+                    },
+                    {
+                      "display_position": "G"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/7ncU_3HjcmsdJo8.nEMszw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/5085.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/7ncU_3HjcmsdJo8.nEMszw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/02052021/5085.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "G"
+                    },
+                    {
+                      "primary_position": "G"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "G"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    [],
+                    {
+                      "player_notes_last_timestamp": 1618189510
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "G"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "starting_status": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "is_starting": 1
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "0"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "12"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "2.40"
+                    }
+                  }
+                ]
+              },
+              "21": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6406"
+                    },
+                    {
+                      "player_id": "6406"
+                    },
+                    {
+                      "name": {
+                        "full": "Alex Nedeljkovic",
+                        "first": "Alex",
+                        "last": "Nedeljkovic",
+                        "ascii_first": "Alex",
+                        "ascii_last": "Nedeljkovic"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6406"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.7"
+                    },
+                    {
+                      "editorial_team_full_name": "Carolina Hurricanes"
+                    },
+                    {
+                      "editorial_team_abbr": "Car"
+                    },
+                    {
+                      "uniform_number": "39"
+                    },
+                    {
+                      "display_position": "G"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/P5rHY1pqL9pKVWyXowv1Jg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10302019/6406.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/P5rHY1pqL9pKVWyXowv1Jg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10302019/6406.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "G"
+                    },
+                    {
+                      "primary_position": "G"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "G"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618267857
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "G"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 0
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "22": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.4854"
+                    },
+                    {
+                      "player_id": "4854"
+                    },
+                    {
+                      "name": {
+                        "full": "Cam Talbot",
+                        "first": "Cam",
+                        "last": "Talbot",
+                        "ascii_first": "Cam",
+                        "ascii_last": "Talbot"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.4854"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.30"
+                    },
+                    {
+                      "editorial_team_full_name": "Minnesota Wild"
+                    },
+                    {
+                      "editorial_team_abbr": "Min"
+                    },
+                    {
+                      "uniform_number": "33"
+                    },
+                    {
+                      "display_position": "G"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/H0BLVPPqN0pipGxavvtXuQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/4854.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/H0BLVPPqN0pipGxavvtXuQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/4854.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "G"
+                    },
+                    {
+                      "primary_position": "G"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "G"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618241231
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "starting_status": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "is_starting": 1
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "23": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6784"
+                    },
+                    {
+                      "player_id": "6784"
+                    },
+                    {
+                      "name": {
+                        "full": "MacKenzie Blackwood",
+                        "first": "MacKenzie",
+                        "last": "Blackwood",
+                        "ascii_first": "MacKenzie",
+                        "ascii_last": "Blackwood"
+                      }
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6784"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.11"
+                    },
+                    {
+                      "editorial_team_full_name": "New Jersey Devils"
+                    },
+                    {
+                      "editorial_team_abbr": "NJ"
+                    },
+                    {
+                      "uniform_number": "29"
+                    },
+                    {
+                      "display_position": "G"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/u4biZKtWy6g2hOiv7Tiruw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11262019/6784.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/u4biZKtWy6g2hOiv7Tiruw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11262019/6784.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "G"
+                    },
+                    {
+                      "primary_position": "G"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "G"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618194168
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "BN"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "24": {
+                "player": [
+                  [
+                    {
+                      "player_key": "403.p.6377"
+                    },
+                    {
+                      "player_id": "6377"
+                    },
+                    {
+                      "name": {
+                        "full": "Kevin Fiala",
+                        "first": "Kevin",
+                        "last": "Fiala",
+                        "ascii_first": "Kevin",
+                        "ascii_last": "Fiala"
+                      }
+                    },
+                    {
+                      "status": "DTD",
+                      "status_full": "Day-to-Day"
+                    },
+                    {
+                      "injury_note": "Upper Body"
+                    },
+                    {
+                      "editorial_player_key": "nhl.p.6377"
+                    },
+                    {
+                      "editorial_team_key": "nhl.t.30"
+                    },
+                    {
+                      "editorial_team_full_name": "Minnesota Wild"
+                    },
+                    {
+                      "editorial_team_abbr": "Min"
+                    },
+                    {
+                      "uniform_number": "22"
+                    },
+                    {
+                      "display_position": "LW,RW"
+                    },
+                    {
+                      "headshot": {
+                        "url": "https://s.yimg.com/iu/api/res/1.2/He6RaJkc0NQ2fW5N9rURaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/6377.png",
+                        "size": "small"
+                      },
+                      "image_url": "https://s.yimg.com/iu/api/res/1.2/He6RaJkc0NQ2fW5N9rURaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/01282021/6377.png"
+                    },
+                    {
+                      "is_undroppable": "0"
+                    },
+                    {
+                      "position_type": "P"
+                    },
+                    {
+                      "primary_position": "LW"
+                    },
+                    {
+                      "eligible_positions": [
+                        {
+                          "position": "LW"
+                        },
+                        {
+                          "position": "RW"
+                        },
+                        {
+                          "position": "F"
+                        },
+                        {
+                          "position": "IR+"
+                        }
+                      ]
+                    },
+                    {
+                      "has_player_notes": 1
+                    },
+                    {
+                      "has_recent_player_notes": 1
+                    },
+                    {
+                      "player_notes_last_timestamp": 1618242264
+                    }
+                  ],
+                  {
+                    "selected_position": [
+                      {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      {
+                        "position": "IR+"
+                      },
+                      {
+                        "is_flex": 0
+                      }
+                    ]
+                  },
+                  {
+                    "is_editable": 1
+                  },
+                  {
+                    "player_stats": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "-"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "-"
+                          }
+                        }
+                      ]
+                    },
+                    "player_points": {
+                      "0": {
+                        "coverage_type": "date",
+                        "date": "2021-04-12"
+                      },
+                      "total": "0.00"
+                    }
+                  }
+                ]
+              },
+              "count": 25
+            }
+          },
+          "minimum_games": {
+            "coverage_type": "week",
+            "coverage_value": 13,
+            "value": "0"
+          }
+        }
+      }
+    ]
+  }
+}
