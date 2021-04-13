@@ -1,0 +1,987 @@
+{
+  "fantasy_content": {
+    "league": [
+      {
+        "league_key": "399.l.36409",
+        "league_id": "36409",
+        "name": "Fantasy Football Keeper League",
+        "url": "https://football.fantasysports.yahoo.com/2020/f1/36409",
+        "logo_url": false,
+        "draft_status": "postdraft",
+        "num_teams": 16,
+        "edit_key": "16",
+        "weekly_deadline": "",
+        "league_update_timestamp": "1610006939",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "390_20881",
+        "renewed": "",
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 1,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "16",
+        "start_week": "1",
+        "start_date": "2020-09-10",
+        "end_week": "16",
+        "end_date": "2020-12-28",
+        "is_finished": 1,
+        "game_code": "nfl",
+        "season": "2020"
+      },
+      {
+        "settings": [
+          {
+            "draft_type": "live",
+            "is_auction_draft": "0",
+            "scoring_type": "head",
+            "uses_playoff": "1",
+            "has_playoff_consolation_games": true,
+            "playoff_start_week": "14",
+            "uses_playoff_reseeding": 1,
+            "uses_lock_eliminated_teams": 0,
+            "num_playoff_teams": "6",
+            "num_playoff_consolation_teams": 6,
+            "has_multiweek_championship": 0,
+            "uses_roster_import": "1",
+            "roster_import_deadline": "2020-08-17",
+            "waiver_type": "FS",
+            "waiver_rule": "gametime",
+            "uses_faab": "1",
+            "draft_time": "1598202000",
+            "draft_pick_time": "60",
+            "post_draft_players": "W",
+            "max_teams": "16",
+            "waiver_time": "2",
+            "trade_end_date": "2020-11-14",
+            "trade_ratify_type": "commish",
+            "trade_reject_time": "2",
+            "player_pool": "ALL",
+            "cant_cut_list": "yahoo",
+            "draft_together": 0,
+            "can_trade_draft_picks": "1",
+            "sendbird_channel_url": "efdeb54b0acf22f2410e6b004fc4fc61",
+            "roster_positions": [
+              {
+                "roster_position": {
+                  "position": "QB",
+                  "position_type": "O",
+                  "count": 1
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "WR",
+                  "position_type": "O",
+                  "count": 2
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "RB",
+                  "position_type": "O",
+                  "count": 2
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "TE",
+                  "position_type": "O",
+                  "count": 1
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "W/R/T",
+                  "position_type": "O",
+                  "count": 1
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "K",
+                  "position_type": "K",
+                  "count": 1
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "DEF",
+                  "position_type": "DT",
+                  "count": 1
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "BN",
+                  "count": 6
+                }
+              },
+              {
+                "roster_position": {
+                  "position": "IR",
+                  "count": "2"
+                }
+              }
+            ],
+            "stat_categories": {
+              "stats": [
+                {
+                  "stat": {
+                    "stat_id": 4,
+                    "enabled": "1",
+                    "name": "Passing Yards",
+                    "display_name": "Pass Yds",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 5,
+                    "enabled": "1",
+                    "name": "Passing Touchdowns",
+                    "display_name": "Pass TD",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 6,
+                    "enabled": "1",
+                    "name": "Interceptions",
+                    "display_name": "Int",
+                    "sort_order": "0",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 8,
+                    "enabled": "1",
+                    "name": "Rushing Attempts",
+                    "display_name": "Rush Att",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O",
+                          "is_only_display_stat": "1"
+                        }
+                      }
+                    ],
+                    "is_only_display_stat": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 9,
+                    "enabled": "1",
+                    "name": "Rushing Yards",
+                    "display_name": "Rush Yds",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 10,
+                    "enabled": "1",
+                    "name": "Rushing Touchdowns",
+                    "display_name": "Rush TD",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 78,
+                    "enabled": "1",
+                    "name": "Targets",
+                    "display_name": "Targets",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O",
+                          "is_only_display_stat": "1"
+                        }
+                      }
+                    ],
+                    "is_only_display_stat": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 11,
+                    "enabled": "1",
+                    "name": "Receptions",
+                    "display_name": "Rec",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 12,
+                    "enabled": "1",
+                    "name": "Receiving Yards",
+                    "display_name": "Rec Yds",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 13,
+                    "enabled": "1",
+                    "name": "Receiving Touchdowns",
+                    "display_name": "Rec TD",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 15,
+                    "enabled": "1",
+                    "name": "Return Touchdowns",
+                    "display_name": "Ret TD",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 16,
+                    "enabled": "1",
+                    "name": "2-Point Conversions",
+                    "display_name": "2-PT",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 18,
+                    "enabled": "1",
+                    "name": "Fumbles Lost",
+                    "display_name": "Fum Lost",
+                    "sort_order": "0",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 57,
+                    "enabled": "1",
+                    "name": "Offensive Fumble Return TD",
+                    "display_name": "Fum Ret TD",
+                    "sort_order": "1",
+                    "position_type": "O",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "O"
+                        }
+                      }
+                    ],
+                    "is_excluded_from_display": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 19,
+                    "enabled": "1",
+                    "name": "Field Goals 0-19 Yards",
+                    "display_name": "FG 0-19",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 20,
+                    "enabled": "1",
+                    "name": "Field Goals 20-29 Yards",
+                    "display_name": "FG 20-29",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 21,
+                    "enabled": "1",
+                    "name": "Field Goals 30-39 Yards",
+                    "display_name": "FG 30-39",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 22,
+                    "enabled": "1",
+                    "name": "Field Goals 40-49 Yards",
+                    "display_name": "FG 40-49",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 23,
+                    "enabled": "1",
+                    "name": "Field Goals 50+ Yards",
+                    "display_name": "FG 50+",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 29,
+                    "enabled": "1",
+                    "name": "Point After Attempt Made",
+                    "display_name": "PAT Made",
+                    "sort_order": "1",
+                    "position_type": "K",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "K"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 31,
+                    "enabled": "1",
+                    "name": "Points Allowed",
+                    "display_name": "Pts Allow",
+                    "sort_order": "0",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT",
+                          "is_only_display_stat": "1"
+                        }
+                      }
+                    ],
+                    "is_only_display_stat": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 32,
+                    "enabled": "1",
+                    "name": "Sack",
+                    "display_name": "Sack",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 33,
+                    "enabled": "1",
+                    "name": "Interception",
+                    "display_name": "Int",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 34,
+                    "enabled": "1",
+                    "name": "Fumble Recovery",
+                    "display_name": "Fum Rec",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 35,
+                    "enabled": "1",
+                    "name": "Touchdown",
+                    "display_name": "TD",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 36,
+                    "enabled": "1",
+                    "name": "Safety",
+                    "display_name": "Safe",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 37,
+                    "enabled": "1",
+                    "name": "Block Kick",
+                    "display_name": "Blk Kick",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 49,
+                    "enabled": "1",
+                    "name": "Kickoff and Punt Return Touchdowns",
+                    "display_name": "Ret TD",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 50,
+                    "enabled": "1",
+                    "name": "Points Allowed 0 points",
+                    "display_name": "Pts Allow 0",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 51,
+                    "enabled": "1",
+                    "name": "Points Allowed 1-6 points",
+                    "display_name": "Pts Allow 1-6",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 52,
+                    "enabled": "1",
+                    "name": "Points Allowed 7-13 points",
+                    "display_name": "Pts Allow 7-13",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 53,
+                    "enabled": "1",
+                    "name": "Points Allowed 14-20 points",
+                    "display_name": "Pts Allow 14-20",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 54,
+                    "enabled": "1",
+                    "name": "Points Allowed 21-27 points",
+                    "display_name": "Pts Allow 21-27",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 55,
+                    "enabled": "1",
+                    "name": "Points Allowed 28-34 points",
+                    "display_name": "Pts Allow 28-34",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 56,
+                    "enabled": "1",
+                    "name": "Points Allowed 35+ points",
+                    "display_name": "Pts Allow 35+",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 82,
+                    "enabled": "1",
+                    "name": "Extra Point Returned",
+                    "display_name": "XPR",
+                    "sort_order": "1",
+                    "position_type": "DT",
+                    "stat_position_types": [
+                      {
+                        "stat_position_type": {
+                          "position_type": "DT"
+                        }
+                      }
+                    ],
+                    "is_excluded_from_display": "1"
+                  }
+                }
+              ]
+            },
+            "stat_modifiers": {
+              "stats": [
+                {
+                  "stat": {
+                    "stat_id": 4,
+                    "value": "0.04"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 5,
+                    "value": "4"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 6,
+                    "value": "-2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 9,
+                    "value": "0.1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 10,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 11,
+                    "value": "0.5"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 12,
+                    "value": "0.1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 13,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 15,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 16,
+                    "value": "2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 18,
+                    "value": "-2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 57,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 19,
+                    "value": "3"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 20,
+                    "value": "3"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 21,
+                    "value": "3"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 22,
+                    "value": "4"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 23,
+                    "value": "5"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 29,
+                    "value": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 32,
+                    "value": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 33,
+                    "value": "2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 34,
+                    "value": "2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 35,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 36,
+                    "value": "2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 37,
+                    "value": "2"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 49,
+                    "value": "6"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 50,
+                    "value": "10"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 51,
+                    "value": "7"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 52,
+                    "value": "4"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 53,
+                    "value": "1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 54,
+                    "value": "0"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 55,
+                    "value": "-1"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 56,
+                    "value": "-4"
+                  }
+                },
+                {
+                  "stat": {
+                    "stat_id": 82,
+                    "value": "2"
+                  }
+                }
+              ]
+            },
+            "divisions": [
+              {
+                "division": {
+                  "division_id": 1,
+                  "name": "Division 1"
+                }
+              },
+              {
+                "division": {
+                  "division_id": 2,
+                  "name": "Division 2"
+                }
+              },
+              {
+                "division": {
+                  "division_id": 3,
+                  "name": "Division 3"
+                }
+              },
+              {
+                "division": {
+                  "division_id": 4,
+                  "name": "Division 4"
+                }
+              }
+            ],
+            "pickem_enabled": "1",
+            "uses_fractional_points": "1",
+            "uses_negative_points": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

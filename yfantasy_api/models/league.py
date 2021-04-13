@@ -228,27 +228,3 @@ class Stat:
         self.position_type = category['position_type']
         self.stat_position_types = [data['stat_position_type']['position_type'] for data in category['stat_position_types']]
         self.modifier = float(modifier['value'])
-
-
-class TeamStandings:
-    def __init__(self, json):
-        self.team = Team(json[0])
-        self.__parse_team_stats(json[1])
-        self.__parse_team_standings(json[2])
-
-    def __parse_team_standings(self, json):
-        json = json['team_standings']
-        self.rank = json['rank']
-        self.playoff_seed = json['playoff_seed']
-        self.wins = json['outcome_totals']['wins']
-        self.losses = json['outcome_totals']['losses']
-        self.ties = json['outcome_totals']['ties']
-        self.percentage = json['outcome_totals']['percentage']
-        self.points_for = json['points_for']
-        self.points_against = json['points_against']
-
-    def __parse_team_stats(self, json):
-        json = json['team_stats']
-        self.coverage_type = json['coverage_type']
-        self.season = json['season']
-        self.stats = {d['stat']['stat_id']: d['stat']['value'] for d in json['stats']}

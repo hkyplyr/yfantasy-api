@@ -1,0 +1,3174 @@
+{
+  "fantasy_content": {
+    "league": [
+      {
+        "league_key": "403.l.17457",
+        "league_id": "17457",
+        "name": "Keeper",
+        "url": "https://hockey.fantasysports.yahoo.com/hockey/17457",
+        "logo_url": false,
+        "password": "",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "2021-04-11",
+        "weekly_deadline": "intraday",
+        "league_update_timestamp": "1618161779",
+        "scoring_type": "headpoint",
+        "league_type": "private",
+        "renew": "396_5194",
+        "renewed": "",
+        "iris_group_chat_id": "",
+        "short_invitation_url": "https://hockey.fantasysports.yahoo.com/hockey/17457/invitation?key=d5c9e16696e1dbf4&ikey=19146793ba7dc7e1",
+        "allow_add_to_dl_extra_pos": 1,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": 12,
+        "start_week": "1",
+        "start_date": "2021-01-13",
+        "end_week": "15",
+        "end_date": "2021-05-02",
+        "game_code": "nhl",
+        "season": "2020"
+      },
+      {
+        "standings": [
+          {
+            "teams": {
+              "0": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.12"
+                    },
+                    {
+                      "team_id": "12"
+                    },
+                    {
+                      "name": "Kyle'sKillerLemonade"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/12"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_2_k.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 5
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "29"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "1"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "12",
+                            "nickname": "Kyle",
+                            "guid": "ZK5OZWCKUJIHTQUWIGNRRB6YBI",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "717",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "200"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "303"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "71"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "150"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1973"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "1196"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "637"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "42"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "25"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "174"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1971"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "8"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2683.50",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "1",
+                      "playoff_seed": "1",
+                      "outcome_totals": {
+                        "wins": "11",
+                        "losses": 0,
+                        "ties": 0,
+                        "percentage": "1.000"
+                      },
+                      "points_for": "2683.50",
+                      "points_against": 2233.6499999999996
+                    }
+                  }
+                ]
+              },
+              "1": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.4"
+                    },
+                    {
+                      "team_id": "4"
+                    },
+                    {
+                      "name": "HockeyMind"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/4"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25218775992_1baac11d46.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 1
+                    },
+                    {
+                      "faab_balance": "60"
+                    },
+                    {
+                      "number_of_moves": "46"
+                    },
+                    {
+                      "number_of_trades": "4"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "5"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "4",
+                            "nickname": "Trevor Wong",
+                            "guid": "FEZZ2H6PPGJMRZSDGXBSNTRQNI",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "955",
+                            "felo_tier": "diamond"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "192"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "414"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "50"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "204"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "5"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1742"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "652"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "498"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "54"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "37"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "273"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2683"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2848.90",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "2",
+                      "playoff_seed": "2",
+                      "outcome_totals": {
+                        "wins": "9",
+                        "losses": "2",
+                        "ties": 0,
+                        "percentage": ".818"
+                      },
+                      "points_for": "2848.90",
+                      "points_against": 2293.6000000000004
+                    }
+                  }
+                ]
+              },
+              "2": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.3"
+                    },
+                    {
+                      "team_id": "3"
+                    },
+                    {
+                      "name": "ImPasta"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/3"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f74089057a90c73ec36b988114b2b8bbab1d6b579de9803a867174741c9bed37.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 3
+                    },
+                    {
+                      "faab_balance": "42"
+                    },
+                    {
+                      "number_of_moves": "45"
+                    },
+                    {
+                      "number_of_trades": "4"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "3"
+                      }
+                    },
+                    {
+                      "clinched_playoffs": 1
+                    },
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "3",
+                            "nickname": "Andrew",
+                            "guid": "NGIXUUCJSH4OTHNKEBJ4NADJYY",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4684/37692396373_7067ab_64sq.jpg",
+                            "felo_score": "887",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "189"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "299"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "69"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "155"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "8"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1551"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "577"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "507"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "49"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "24"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "242"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2367"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2492.95",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "3",
+                      "playoff_seed": "3",
+                      "outcome_totals": {
+                        "wins": "7",
+                        "losses": "4",
+                        "ties": 0,
+                        "percentage": ".636"
+                      },
+                      "points_for": "2492.95",
+                      "points_against": 2421.9500000000003
+                    }
+                  }
+                ]
+              },
+              "3": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.1"
+                    },
+                    {
+                      "team_id": "1"
+                    },
+                    {
+                      "name": "One Barrel at a Time"
+                    },
+                    {
+                      "is_owned_by_current_login": 1
+                    },
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/1"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d906ebfd61c573f9c3824955f084cf123d392c1e6ccf47d8ceb2028535150a7f.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 10
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "19"
+                    },
+                    {
+                      "number_of_trades": "4"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "1",
+                            "nickname": "Travis",
+                            "guid": "VSED6ANDQHFR75XWUC4MS7FZHM",
+                            "is_commissioner": "1",
+                            "is_current_login": "1",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4692/37445284213_f83fb7_64sq.jpg",
+                            "felo_score": "711",
+                            "felo_tier": "gold"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "168"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "323"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "4"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "146"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "4"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1774"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "899"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "618"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "50"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "32"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "222"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2323"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "11"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2475.25",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "4",
+                      "playoff_seed": "4",
+                      "outcome_totals": {
+                        "wins": "6",
+                        "losses": "5",
+                        "ties": 0,
+                        "percentage": ".545"
+                      },
+                      "points_for": "2475.25",
+                      "points_against": 2222.2000000000003
+                    }
+                  }
+                ]
+              },
+              "4": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.8"
+                    },
+                    {
+                      "team_id": "8"
+                    },
+                    {
+                      "name": "Poop hole lupul"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/8"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/37539306335_98c234.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 8
+                    },
+                    {
+                      "faab_balance": "97"
+                    },
+                    {
+                      "number_of_moves": "20"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "1"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "8",
+                            "nickname": "Richard",
+                            "guid": "ELWYRAPYYL6E3QCKL5DRPPU4RA",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "596",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "180"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "329"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "51"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "145"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "11"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1640"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "698"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "647"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "40"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "39"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "248"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2519"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "3"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2450.50",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "5",
+                      "playoff_seed": "5",
+                      "outcome_totals": {
+                        "wins": "6",
+                        "losses": "5",
+                        "ties": 0,
+                        "percentage": ".545"
+                      },
+                      "points_for": "2450.50",
+                      "points_against": 2314.6
+                    }
+                  }
+                ]
+              },
+              "5": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.2"
+                    },
+                    {
+                      "team_id": "2"
+                    },
+                    {
+                      "name": "Captain Shattnerkirk"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/2"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_4.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 2
+                    },
+                    {
+                      "faab_balance": "78"
+                    },
+                    {
+                      "number_of_moves": "46"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "5"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "2",
+                            "nickname": "Fabian Mayer",
+                            "guid": "DQNI6HDRJO73UTWYXEVT6MGWHA",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "857",
+                            "felo_tier": "platinum"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "171"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "316"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-28"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "148"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "4"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1750"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "694"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "521"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "52"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "29"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "212"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2355"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "8"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2425.40",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "6",
+                      "playoff_seed": "6",
+                      "outcome_totals": {
+                        "wins": "6",
+                        "losses": "5",
+                        "ties": 0,
+                        "percentage": ".545"
+                      },
+                      "points_for": "2425.40",
+                      "points_against": 2317.4500000000003
+                    }
+                  }
+                ]
+              },
+              "6": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.6"
+                    },
+                    {
+                      "team_id": "6"
+                    },
+                    {
+                      "name": "I Kane Twice"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/6"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_5.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 4
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "9"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "6",
+                            "nickname": "Mason",
+                            "guid": "RQOK666EVF6NJBHF5KR33L354A",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "554",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "176"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "278"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "7"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "123"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "13"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1523"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "723"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "452"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "44"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "27"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "199"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "2171"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "6"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2232.95",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "7",
+                      "playoff_seed": "7",
+                      "outcome_totals": {
+                        "wins": "5",
+                        "losses": "6",
+                        "ties": 0,
+                        "percentage": ".455"
+                      },
+                      "points_for": "2232.95",
+                      "points_against": 2351.2999999999997
+                    }
+                  }
+                ]
+              },
+              "7": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.7"
+                    },
+                    {
+                      "team_id": "7"
+                    },
+                    {
+                      "name": "Moany & Groany"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/7"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/30000259449_3b4ab7.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 9
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "6"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "1"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "7",
+                            "nickname": "ryan",
+                            "guid": "BSWXBV6KKX36NR3HANRNNZX73Y",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "621",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "183"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "327"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "4"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "172"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "5"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1709"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "723"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "499"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "31"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "24"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "158"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1777"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "3"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2412.85",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "8",
+                      "playoff_seed": "8",
+                      "outcome_totals": {
+                        "wins": "4",
+                        "losses": "7",
+                        "ties": 0,
+                        "percentage": ".364"
+                      },
+                      "points_for": "2412.85",
+                      "points_against": 2419.7999999999997
+                    }
+                  }
+                ]
+              },
+              "8": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.11"
+                    },
+                    {
+                      "team_id": "11"
+                    },
+                    {
+                      "name": "Kyle sux dixncox"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/11"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_1_p.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 6
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "22"
+                    },
+                    {
+                      "number_of_trades": 0
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "11",
+                            "nickname": "Prime Time",
+                            "guid": "NRLZFZTSZOL64UZC3E3Q34WLEI",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4592/38938051436_853719_64sq.jpg",
+                            "felo_score": "652",
+                            "felo_tier": "silver"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "149"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "261"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-57"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "130"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "2"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1549"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "726"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "443"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "31"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "28"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "183"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1803"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "2"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "1990.65",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "9",
+                      "playoff_seed": "9",
+                      "outcome_totals": {
+                        "wins": "4",
+                        "losses": "7",
+                        "ties": 0,
+                        "percentage": ".364"
+                      },
+                      "points_for": "1990.65",
+                      "points_against": 2416.8000000000006
+                    }
+                  }
+                ]
+              },
+              "9": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.9"
+                    },
+                    {
+                      "team_id": "9"
+                    },
+                    {
+                      "name": "Slap Shot"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/9"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/26039217919_d14b76.jpg"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 11
+                    },
+                    {
+                      "faab_balance": "95"
+                    },
+                    {
+                      "number_of_moves": "18"
+                    },
+                    {
+                      "number_of_trades": "2"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "9",
+                            "nickname": "Joe",
+                            "guid": "GQJCOXDDP5EVPEVHMDTBMSYL5A",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "538",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "162"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "295"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "-47"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "145"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "9"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1649"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "827"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "488"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "33"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "24"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "175"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1767"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "3"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2247.30",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "10",
+                      "playoff_seed": "10",
+                      "outcome_totals": {
+                        "wins": "3",
+                        "losses": "8",
+                        "ties": 0,
+                        "percentage": ".273"
+                      },
+                      "points_for": "2247.30",
+                      "points_against": 2460.3499999999995
+                    }
+                  }
+                ]
+              },
+              "10": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.5"
+                    },
+                    {
+                      "team_id": "5"
+                    },
+                    {
+                      "name": "I Kane too early"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/5"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_12.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 7
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "14"
+                    },
+                    {
+                      "number_of_trades": "1"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "1"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "5",
+                            "nickname": "Mike",
+                            "guid": "PXN52OYDWBZ5TBFZNNQPPTC7LE",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/4596/38143388700_7fe7fc_64sq.jpg",
+                            "felo_score": "534",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "139"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "227"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "12"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "103"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "6"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1597"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "931"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "486"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "20"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "22"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "134"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1128"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "3"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "1873.50",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "11",
+                      "playoff_seed": "11",
+                      "outcome_totals": {
+                        "wins": "3",
+                        "losses": "8",
+                        "ties": 0,
+                        "percentage": ".273"
+                      },
+                      "points_for": "1873.50",
+                      "points_against": 2312.35
+                    }
+                  }
+                ]
+              },
+              "11": {
+                "team": [
+                  [
+                    {
+                      "team_key": "403.l.17457.t.10"
+                    },
+                    {
+                      "team_id": "10"
+                    },
+                    {
+                      "name": "Tatar Sauce"
+                    },
+                    [],
+                    {
+                      "url": "https://hockey.fantasysports.yahoo.com/hockey/17457/10"
+                    },
+                    {
+                      "team_logos": [
+                        {
+                          "team_logo": {
+                            "size": "large",
+                            "url": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_8.png"
+                          }
+                        }
+                      ]
+                    },
+                    [],
+                    {
+                      "waiver_priority": 12
+                    },
+                    {
+                      "faab_balance": "100"
+                    },
+                    {
+                      "number_of_moves": "17"
+                    },
+                    {
+                      "number_of_trades": "3"
+                    },
+                    {
+                      "roster_adds": {
+                        "coverage_type": "week",
+                        "coverage_value": 12,
+                        "value": "0"
+                      }
+                    },
+                    [],
+                    {
+                      "league_scoring_type": "headpoint"
+                    },
+                    [],
+                    [],
+                    {
+                      "has_draft_grade": 0
+                    },
+                    [],
+                    [],
+                    {
+                      "managers": [
+                        {
+                          "manager": {
+                            "manager_id": "10",
+                            "nickname": "Chay",
+                            "guid": "HSM6SV2EDWAHXMQBXV6Q5DD274",
+                            "email": "fakeemail@email.com",
+                            "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                            "felo_score": "529",
+                            "felo_tier": "bronze"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "team_stats": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": "190"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": "285"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": "64"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": "127"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": "6"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": "1625"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": "805"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": "550"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": "22"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": "21"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": "148"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": "1255"
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "team_points": {
+                      "coverage_type": "season",
+                      "season": "2020",
+                      "total": "2220.50",
+                      "stats": [
+                        {
+                          "stat": {
+                            "stat_id": "1",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "2",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "4",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "8",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "11",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "14",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "31",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "32",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "19",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "20",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "22",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "25",
+                            "value": ""
+                          }
+                        },
+                        {
+                          "stat": {
+                            "stat_id": "27",
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "team_standings": {
+                      "rank": "12",
+                      "playoff_seed": "12",
+                      "outcome_totals": {
+                        "wins": "2",
+                        "losses": "9",
+                        "ties": 0,
+                        "percentage": ".182"
+                      },
+                      "points_for": "2220.50",
+                      "points_against": 2590.2
+                    }
+                  }
+                ]
+              },
+              "count": 12
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
