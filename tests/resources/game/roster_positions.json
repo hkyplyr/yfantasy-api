@@ -1,0 +1,116 @@
+{
+  "fantasy_content": {
+    "game": [
+      {
+        "game_key": "403",
+        "game_id": "403",
+        "name": "Hockey",
+        "code": "nhl",
+        "type": "full",
+        "url": "https://hockey.fantasysports.yahoo.com/hockey",
+        "season": "2020",
+        "is_registration_over": 1,
+        "is_game_over": 0,
+        "is_offseason": 0
+      },
+      {
+        "roster_positions": [
+          {
+            "roster_position": {
+              "position": "C",
+              "abbreviation": "C",
+              "display_name": "Center",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "LW",
+              "abbreviation": "LW",
+              "display_name": "Left Winger",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "RW",
+              "abbreviation": "RW",
+              "display_name": "Right Winger",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "W",
+              "abbreviation": "W",
+              "display_name": "Winger",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "F",
+              "abbreviation": "F",
+              "display_name": "Forward",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "D",
+              "abbreviation": "D",
+              "display_name": "Defenseman",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "Util",
+              "abbreviation": "Util",
+              "display_name": "Utility",
+              "position_type": "P"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "G",
+              "abbreviation": "G",
+              "display_name": "Goalie",
+              "position_type": "G"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "BN",
+              "abbreviation": "BN",
+              "display_name": "Bench",
+              "is_bench": 1
+            }
+          },
+          {
+            "roster_position": {
+              "position": "IR",
+              "abbreviation": "IR",
+              "display_name": "Injured Reserve",
+              "is_disabled_list": 1
+            }
+          },
+          {
+            "roster_position": {
+              "position": "IR+",
+              "abbreviation": "IR+",
+              "display_name": "IR, IR-NR, IR-LT, Day-to-Day or Out"
+            }
+          },
+          {
+            "roster_position": {
+              "position": "NA",
+              "abbreviation": "NA",
+              "display_name": "Not Active"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

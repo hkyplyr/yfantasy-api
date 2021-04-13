@@ -17,7 +17,7 @@ def setup(mocker):
 
 
 def get_response_stub():
-    with open('tests/resources/game.json') as f:
+    with open('tests/resources/game/game.json') as f:
         return f.read()
 
 

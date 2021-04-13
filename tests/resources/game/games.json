@@ -1,0 +1,23 @@
+{
+  "fantasy_content": {
+    "games": {
+      "0": {
+        "game": [
+          {
+            "game_key": "348",
+            "game_id": "348",
+            "name": "Football",
+            "code": "nfl",
+            "type": "full",
+            "url": "https://football.fantasysports.yahoo.com/archive/nfl/2015",
+            "season": "2015",
+            "is_registration_over": 1,
+            "is_game_over": 1,
+            "is_offseason": 1
+          }
+        ]
+      },
+      "count": 1
+    }
+  }
+}
