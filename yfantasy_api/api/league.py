@@ -31,7 +31,7 @@ class LeagueApi:
         """
         self.__yfantasy_api = yfantasy_api
         self.__league_key = f'{self.__yfantasy_api.game_id}.l.{self.__yfantasy_api.league_id}'
-        self.__url = f'/league/{self.__league_key}'
+        self.__url = f'league/{self.__league_key}'
         self.path = ''
 
     def draft_results(self):

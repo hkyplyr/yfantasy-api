@@ -4,7 +4,7 @@ import time
 from pytest import fixture, raises
 from pytest_mock import mocker
 
-from yfantasy_api.api.api import YahooFantasyApi, BASE_URL
+from yfantasy_api.api.api import YahooFantasyApi
 from yfantasy_api.api.auth import AuthenticationService
 
 
@@ -19,42 +19,30 @@ def setup(mocker):
 
 
 def get_response_stub():
-    with open('tests/resources/api_response_stub.json') as f:
+    with open('tests/resources/game/game.json') as f:
         return f.read()
 
 
 def test_get_resource_valid_tokens(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
-
+    requests_mock.get(f'{YahooFantasyApi.base_url}/game/nhl', text=get_response_stub())
     yfs, _ = make_api_call(is_valid=True)
-
     yfs.auth_service.refresh_tokens.assert_not_called()
 
 
 def test_get_resource_invalid_tokens(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
-
+    requests_mock.get(f'{YahooFantasyApi.base_url}/game/nhl', text=get_response_stub())
     yfs, _ = make_api_call(is_valid=False)
-
     yfs.auth_service.refresh_tokens.assert_called_with()
 
 
 def test_response_code_not_200(requests_mock, mocker):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text='Error!', status_code=400)
+    requests_mock.get(f'{YahooFantasyApi.base_url}/game/nhl', text='Error!', status_code=400)
     with raises(SystemExit) as sys_exit_e:
         make_api_call()
     assert sys_exit_e.type == SystemExit
 
 
-def test_response_with_metadata(requests_mock):
-    requests_mock.get(f'{BASE_URL}/game/nhl/game_weeks', text=get_response_stub())
-
-    _, resp = make_api_call(with_metadata=True)
-    assert resp[0] == {'data': 'data'}
-    assert resp[1] == 'data2'
-
-
 def make_api_call(is_valid=True, with_metadata=False):
-    yfs = YahooFantasyApi(123456)
+    yfs = YahooFantasyApi(123456, 'nhl', timeout=0)
     yfs.expires_by = time.time() + 1000 if is_valid else time.time() - 1000
-    return yfs, yfs.game().game_weeks().get()
+    return yfs, yfs.game().get()

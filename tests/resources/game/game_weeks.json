@@ -1,0 +1,151 @@
+{
+  "fantasy_content": {
+    "game": [
+      {
+        "game_key": "403",
+        "game_id": "403",
+        "name": "Hockey",
+        "code": "nhl",
+        "type": "full",
+        "url": "https://hockey.fantasysports.yahoo.com/hockey",
+        "season": "2020",
+        "is_registration_over": 1,
+        "is_game_over": 0,
+        "is_offseason": 0
+      },
+      {
+        "game_weeks": {
+          "0": {
+            "game_week": {
+              "week": "1",
+              "display_name": "1",
+              "start": "2021-01-13",
+              "end": "2021-01-24"
+            }
+          },
+          "1": {
+            "game_week": {
+              "week": "2",
+              "display_name": "2",
+              "start": "2021-01-25",
+              "end": "2021-01-31"
+            }
+          },
+          "2": {
+            "game_week": {
+              "week": "3",
+              "display_name": "3",
+              "start": "2021-02-01",
+              "end": "2021-02-07"
+            }
+          },
+          "3": {
+            "game_week": {
+              "week": "4",
+              "display_name": "4",
+              "start": "2021-02-08",
+              "end": "2021-02-14"
+            }
+          },
+          "4": {
+            "game_week": {
+              "week": "5",
+              "display_name": "5",
+              "start": "2021-02-15",
+              "end": "2021-02-21"
+            }
+          },
+          "5": {
+            "game_week": {
+              "week": "6",
+              "display_name": "6",
+              "start": "2021-02-22",
+              "end": "2021-02-28"
+            }
+          },
+          "6": {
+            "game_week": {
+              "week": "7",
+              "display_name": "7",
+              "start": "2021-03-01",
+              "end": "2021-03-07"
+            }
+          },
+          "7": {
+            "game_week": {
+              "week": "8",
+              "display_name": "8",
+              "start": "2021-03-08",
+              "end": "2021-03-14"
+            }
+          },
+          "8": {
+            "game_week": {
+              "week": "9",
+              "display_name": "9",
+              "start": "2021-03-15",
+              "end": "2021-03-21"
+            }
+          },
+          "9": {
+            "game_week": {
+              "week": "10",
+              "display_name": "10",
+              "start": "2021-03-22",
+              "end": "2021-03-28"
+            }
+          },
+          "10": {
+            "game_week": {
+              "week": "11",
+              "display_name": "11",
+              "start": "2021-03-29",
+              "end": "2021-04-04"
+            }
+          },
+          "11": {
+            "game_week": {
+              "week": "12",
+              "display_name": "12",
+              "start": "2021-04-05",
+              "end": "2021-04-11"
+            }
+          },
+          "12": {
+            "game_week": {
+              "week": "13",
+              "display_name": "13",
+              "start": "2021-04-12",
+              "end": "2021-04-18"
+            }
+          },
+          "13": {
+            "game_week": {
+              "week": "14",
+              "display_name": "14",
+              "start": "2021-04-19",
+              "end": "2021-04-25"
+            }
+          },
+          "14": {
+            "game_week": {
+              "week": "15",
+              "display_name": "15",
+              "start": "2021-04-26",
+              "end": "2021-05-02"
+            }
+          },
+          "15": {
+            "game_week": {
+              "week": "16",
+              "display_name": "16",
+              "start": "2021-05-03",
+              "end": "2021-05-08"
+            }
+          },
+          "count": 16
+        }
+      }
+    ]
+  }
+}

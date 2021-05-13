@@ -13,8 +13,6 @@ class User:
         for data in json:
             if 'games' in data:
                 self.__parse_games(data['games'])
-            if 'leagues' in data:
-                self.__parse_leagues(data['leagues'])
             if 'teams' in data:
                 self.__parse_teams(data['teams'])
 

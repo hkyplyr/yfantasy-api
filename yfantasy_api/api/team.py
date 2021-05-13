@@ -31,7 +31,7 @@ class TeamApi:
         """
         self.__yfantasy_api = yfantasy_api
         self.__team_key = f'{self.__yfantasy_api.game_id}.l.{self.__yfantasy_api.league_id}.t.{team_id}'
-        self.__url = f'/team/{self.__team_key}'
+        self.__url = f'team/{self.__team_key}'
         self.path = ''
 
     def meta(self):
@@ -56,7 +56,7 @@ class TeamApi:
             If nothing is provided the server will default to the
             current week.
         """
-        self.path += '/mathchups'
+        self.path += '/matchups'
 
         if week:
             self.path += f';week={week}'
@@ -143,48 +143,16 @@ class PlayerCollectionApi:
         """
         self.__parent_api = parent_api
 
-    def stats(self, date=None, season=None, week=None):
+    def stats(self):
         """Updates the path to include the 'stats' sub-resource
 
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
-
-        This method supports changing the requested scope for player
-        stats, but only one of `date`, `season`, or `week` can be
-        provided.
-
-        Parameters
-        ----------
-        date: str
-            The value to indicate the date of the player stats to return.
-            If a value is provided this will add a `;type=date;date=<value>`
-            filter. The date must be provided in a 'YYYY-MM-DD' format.
-        season: int
-            The value to indicate the season of the players stats to return.
-            If a value is provided this will add a `;type=season;season=<value>`
-            filter.
-        week:int
-            The value to indicate the week of the players stats to return.
-            If a value is provided this will add a `;type=week;week=<value>`
-            filter.
         """
-        coverage_filter = self.__build_coverage_filter(date, season, week)
-        self.__parent_api.path += f'/players/stats{coverage_filter}'
+        self.__parent_api.path += '/players/stats'
         return TerminalApi(self.__parent_api)
 
     def get(self):
         """Invoke the parent API `get()` call
         """
         return self.__parent_api.get()
-
-    def __build_coverage_filter(self, date, season, week):
-        if bool(date) + bool(season) + bool(week) > 1:
-            raise Exception('Only one of \'date\', \'season\', or \'week\' should be provided.')
-        elif date:
-            return f';type=date;date={date}'
-        elif season:
-            return f';type=season;season={season}'
-        elif week:
-            return f';type=week;week={week}'
-        else:
-            return ''

@@ -36,13 +36,18 @@ class YahooFantasyApi:
         The token used to refresh the access_token once its expired
     expires_by: float
         The timestamp indicating when the current access_token expires
+    __timout: int
+        The timeout that the client should wait before sending an http
+        request. Used to avoid errors caused by too many requests
     """
 
-    def __init__(self, league_id, game_id):
-        self.base_url = 'https://fantasysports.yahooapis.com/fantasy/v2'
+    base_url = 'https://fantasysports.yahooapis.com/fantasy/v2'
+
+    def __init__(self, league_id, game_id, timeout=1):
         self.league_id = league_id
         self.game_id = game_id
         self.auth_service = AuthenticationService()
+        self.__timeout = timeout
         self.__set_tokens()
 
     def game(self):
@@ -106,7 +111,7 @@ class YahooFantasyApi:
         headers = {'Authorization': 'Bearer {}'.format(self.access_token)}
         url = '{}/{}'.format(self.base_url, path)
 
-        time.sleep(1)
+        time.sleep(self.__timeout)
 
         response = requests.get(url, params=params, headers=headers)
         if response.status_code == 200:

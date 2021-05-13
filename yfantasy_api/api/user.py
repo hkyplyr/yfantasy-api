@@ -32,8 +32,16 @@ class UserApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__url = '/users;use_login=1'
+        self.__url = 'users;use_login=1'
         self.path = ''
+
+    def meta(self):
+        """Leaves the path empty to make the call return meta information
+
+        Returns a TerminalApi object that provides a `get()` call to
+        invoke the query.
+        """
+        return TerminalApi(self)
 
     def games(self):
         """Updates the path to include the `games` sub-resource
@@ -42,15 +50,6 @@ class UserApi:
         invoke the query.
         """
         self.path += '/games'
-        return TerminalApi(self)
-
-    def leagues(self):
-        """Updates the path to include the `leagues` sub-resource
-
-        Returns a TerminalApi object that provides a `get()` call to
-        invoke the query.
-        """
-        self.path += '/leagues'
         return TerminalApi(self)
 
     def teams(self):
