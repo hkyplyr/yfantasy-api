@@ -3,18 +3,20 @@ from yfantasy_api.models.common import Player
 
 class Transaction:
     def __init__(self, json):
-        info = json[0]
-        self.transaction_key = info['transaction_key']
-        self.transaction_id = info['transaction_id']
-        self.type = info['type']
-        self.status = info['status']
-        self.timestamp = info['timestamp']
+        self.transaction_key = json['transaction_key']
+        self.transaction_id = json['transaction_id']
+        self.type = json['type']
+        self.status = json['status']
+        self.timestamp = json['timestamp']
+        self.faab_bid = json.get('faab_bid')
+    
+    def __repr__(self):
+        return str(self.__dict__) # pragma: no cover
 
 
 class Add(Transaction):
     def __init__(self, json):
-        super().__init__(json)
-        self.faab_bid = json[0].get('faab_bid', None)
+        super().__init__(json[0])
         self.added_player = Player(json[1]['players']['0']['player'])
         self.__parse_transaction_data(json[1]['players']['0']['player'][1]['transaction_data'][0])
 
@@ -27,7 +29,7 @@ class Add(Transaction):
 
 class Drop(Transaction):
     def __init__(self, json):
-        super().__init__(json)
+        super().__init__(json[0])
         self.dropped_player = Player(json[1]['players']['0']['player'])
         self.__parse_transaction_data(json[1]['players']['0']['player'][1]['transaction_data'])
 
@@ -40,8 +42,7 @@ class Drop(Transaction):
 
 class AddDrop(Transaction):
     def __init__(self, json):
-        super().__init__(json)
-        self.faab_bid = json[0].get('faab_bid', None)
+        super().__init__(json[0])
         self.added_player = Player(json[1]['players']['0']['player'])
         self.dropped_player = Player(json[1]['players']['1']['player'])
         self.__parse_transaction_data(json[1]['players']['0']['player'][1]['transaction_data'][0])
@@ -66,13 +67,15 @@ class Pick:
 
 class Trade(Transaction):
     def __init__(self, json):
-        super().__init__(json)
-        self.trader_team_key = json[0]['trader_team_key']
-        self.trader_team_name = json[0]['trader_team_name']
-        self.tradee_team_key = json[0]['tradee_team_key']
-        self.tradee_team_name = json[0]['tradee_team_name']
-        self.traded_picks = [Pick(d['pick']) for d in json[0].get('picks', [])]
+        info = json[0]
+        super().__init__(info)
+        self.trader_team_key = info['trader_team_key']
+        self.trader_team_name = info['trader_team_name']
+        self.tradee_team_key = info['tradee_team_key']
+        self.tradee_team_name = info['tradee_team_name']
+        self.traded_picks = [Pick(d['pick']) for d in info.get('picks', [])]
         json = json[1]['players']
+        print(json)
         if type(json) == list:
             self.traded_players = []
         else:
