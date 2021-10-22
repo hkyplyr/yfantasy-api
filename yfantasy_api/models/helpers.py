@@ -12,7 +12,7 @@ def as_float(value):
     return float(value)
 
 def as_int(value):
-    if value is None:
+    if value is None or value == '-':
         return None
     return int(value)
 

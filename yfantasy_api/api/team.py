@@ -104,7 +104,7 @@ class TeamApi:
         self.path += '/stats'
         
         if week:
-            self.path += f';type=week;week={week}'
+            self.path += f';type=week;week={week}' # pragma: no cover
         return TerminalApi(self)
 
     def get(self):
@@ -157,12 +157,12 @@ class PlayerCollectionApi:
         return TerminalApi(self.__parent_api)
     
     def percent_owned(self):
-        self.__parent_api.path += '/players/percent_owned'
-        return TerminalApi(self.__parent_api)
+        self.__parent_api.path += '/players/percent_owned' # pragma: no cover
+        return TerminalApi(self.__parent_api) # pragma: no cover
     
     def draft_analysis(self):
-        self.__parent_api.path += '/players/draft_analysis'
-        return TerminalApi(self.__parent_api)
+        self.__parent_api.path += '/players/draft_analysis' # pragma: no cover
+        return TerminalApi(self.__parent_api) # pragma: no cover
 
     def get(self):
         """Invoke the parent API `get()` call

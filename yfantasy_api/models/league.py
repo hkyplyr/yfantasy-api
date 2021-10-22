@@ -26,7 +26,7 @@ class League:
         self.__parse_sub_resources(json)
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
     def __parse_sub_resources(self, json):
         for data in json:
@@ -93,7 +93,7 @@ class DraftResult:
         self.player = Player(json['0']['players']['0']['player'])
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
 class Matchup:
     def __init__(self, json):
@@ -123,7 +123,7 @@ class Matchup:
             self.losing_team = self.__parse_losing_team(self.teams, winning_team_key)
 
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
 
 class Settings:
@@ -161,7 +161,7 @@ class Settings:
         self.stat_categories = self.__parse_stat_categories(json)
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
     def __parse_roster_positions(self, json):
         json = json.get('roster_positions')
@@ -176,7 +176,7 @@ class Settings:
         return [Stat(cat['stat'], modifiers) for cat in categories]
 
     def __parse_divisions(self, json):
-        json = json.get('divisions')
+        json = json.get('divisions', [])
         return [Division(d['division']) for d in json]
 
 
@@ -186,7 +186,7 @@ class Division:
         self.name = json['name']
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
 class Stat:
     def __init__(self, category, modifiers):
@@ -196,4 +196,4 @@ class Stat:
         self.value = modifiers.get(self.id)
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover

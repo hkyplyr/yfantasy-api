@@ -11,20 +11,11 @@ def mock_request(requests_mock, path, response_name):
 
 def test_draft_results(requests_mock):
     sub_resource = 'draftresults'
-    path = f'league/nhl.l.123456/{sub_resource}'
+    path = f'league/nhl.l.123456/{sub_resource}/players'
     api = YahooFantasyApi(123456, 'nhl', timeout=0)
     mock_request(requests_mock, path, sub_resource)
 
     hasattr(api.league().draft_results().get(), sub_resource)
-
-
-def test_draft_results_with_players(requests_mock):
-    sub_resource = 'draftresults'
-    path = f'league/nhl.l.123456/{sub_resource}/players'
-    api = YahooFantasyApi(123456, 'nhl', timeout=0)
-    mock_request(requests_mock, path, 'draftresults_with_players')
-
-    hasattr(api.league().draft_results().players().get(), sub_resource)
 
 
 def test_meta(requests_mock):

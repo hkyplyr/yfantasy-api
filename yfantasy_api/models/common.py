@@ -20,7 +20,7 @@ class Team:
         self.__parse_sub_resources(json)
 
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
     def __flatten_attributes(self, json):
         json = json[0] if type(json) == list else [json]
@@ -74,10 +74,12 @@ class Team:
     
     def __parse_team_logo(self, json):
         json = json.get('team_logos')
+        if not json:
+            return None
         return json[0]['team_logo']['url']
     
     def __parse_managers(self, json):
-        return [Manager(m) for m in json['managers']]
+        return [Manager(m) for m in json.get('managers', [])]
 
 
 class Manager:
@@ -86,11 +88,11 @@ class Manager:
         self.manager_id = as_int(json['manager_id'])
         self.name = json['nickname']
         self.felo_score = as_int(json.get('felo_score'))
-        self.felo_tier = json.get('felo_tier').title()
+        self.felo_tier = json.get('felo_tier')
         self.is_commissioner = as_bool(json.get('is_commissioner'))
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
 
 class Player:
@@ -117,7 +119,7 @@ class Player:
         self.__parse_sub_resources(json)
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
     def __parse_sub_resources(self, json):
         for data in json:
@@ -149,8 +151,8 @@ class Player:
 
     def __parse_percent_owned(self, json):
         json = flatten_attributes(json['percent_owned'])
-        self.percent_owned = as_int(json['value'])
-        self.percent_changed = as_int(json['delta'])
+        self.percent_owned = as_int(json.get('value'))
+        self.percent_changed = as_int(json.get('delta'))
 
     def __parse_draft_analysis(self, json):
         json = flatten_attributes(json['draft_analysis'])

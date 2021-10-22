@@ -11,7 +11,7 @@ class Transaction:
         self.faab_bid = json.get('faab_bid')
     
     def __repr__(self):
-        return str(self.__dict__)
+        return str(self.__dict__) # pragma: no cover
 
 
 class Add(Transaction):
