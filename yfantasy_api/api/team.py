@@ -94,13 +94,17 @@ class TeamApi:
         self.path += '/standings'
         return TerminalApi(self)
 
-    def stats(self):
+    def stats(self, week=None):
         """Updates the path to include the `stats` sub-resource
 
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
+
         self.path += '/stats'
+        
+        if week:
+            self.path += f';type=week;week={week}'
         return TerminalApi(self)
 
     def get(self):
@@ -150,6 +154,14 @@ class PlayerCollectionApi:
         invoke the query.
         """
         self.__parent_api.path += '/players/stats'
+        return TerminalApi(self.__parent_api)
+    
+    def percent_owned(self):
+        self.__parent_api.path += '/players/percent_owned'
+        return TerminalApi(self.__parent_api)
+    
+    def draft_analysis(self):
+        self.__parent_api.path += '/players/draft_analysis'
         return TerminalApi(self.__parent_api)
 
     def get(self):

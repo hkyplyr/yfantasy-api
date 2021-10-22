@@ -37,11 +37,14 @@ class LeagueApi:
     def draft_results(self):
         """Updates the path to include the `draftresults` sub-resource
 
-        Returns a DraftResultsCollectionApi object that provides methods
-        for adding further sub-resources or invoking the query
+        The draft results will include the `players` sub-resource in the
+        response automatically.
+
+        Returns a TerminalApi object that provides a `get()` call to
+        invoke the query.
         """
-        self.path += '/draftresults'
-        return DraftResultsCollectionApi(self)
+        self.path += '/draftresults/players'
+        return TerminalApi(self)
 
     def meta(self):
         """Leaves the path empty to make the call return meta information
@@ -189,44 +192,6 @@ class LeagueApi:
         The response json is transformed into a League model
         """
         return League(self.__yfantasy_api.get(f'{self.__url}{self.path}')['league'])
-
-
-class DraftResultsCollectionApi:
-    """Draft Results API: Supports querying draft results sub-resources
-
-    Attributes
-    ----------
-    __parent_api
-        The parent api class that created this object, this parent
-        api is used when invoking the query or creating the terminal
-        api object.
-    """
-
-    def __init__(self, parent_api):
-        """Initialize a new Draft Results API object
-
-        Parameters
-        ----------
-        parent_api
-            The parent api class that created this object, this parent
-            api is used when invoking the query or creating the terminal
-            api object.
-        """
-        self.__parent_api = parent_api
-
-    def players(self):
-        """Updates the path to include the 'players' sub-resource
-
-        Returns a TerminalApi object that provides a `get()` call to
-        invoke the query.
-        """
-        self.__parent_api.path += '/players'
-        return TerminalApi(self.__parent_api)
-
-    def get(self):
-        """Invoke the parent API `get()` call
-        """
-        return self.__parent_api.get()
 
 
 class PlayersCollectionApi:

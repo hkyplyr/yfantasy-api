@@ -1,12 +1,32 @@
 from yfantasy_api.models.common import Player, Team
+from yfantasy_api.models.helpers import flatten_attributes, as_float, as_bool, as_int
 from yfantasy_api.models.transaction import Add, AddDrop, Drop, Trade
 
 
 class League:
     def __init__(self, json):
-        self.json = json
-        self.info = LeagueInfo(json[0])
+        attributes = flatten_attributes(json)
+        self.key = attributes.get('league_key')
+        self.id = as_int(attributes.get('league_id'))
+        self.name = attributes.get('name')
+        self.url = attributes.get('url')
+        self.logo_url = attributes.get('logo_url')
+        self.draft_status = attributes.get('draft_status')
+        self.num_teams = as_int(attributes.get('num_teams'))
+        self.scoring_type = attributes.get('scoring_type')
+        self.league_type = attributes.get('league_type')
+        self.add_injured_to_ir = as_bool(attributes.get('allow_add_to_dl_extra_pos'))
+        self.current_week = as_int(attributes.get('current_week'))
+        self.start_week = as_int(attributes.get('start_week'))
+        self.start_date = attributes.get('start_date')
+        self.end_week = as_int(attributes.get('end_week'))
+        self.end_date = attributes.get('end_date')
+        self.game_code = attributes.get('game_code')
+        self.season = as_int(attributes.get('season'))
         self.__parse_sub_resources(json)
+    
+    def __repr__(self):
+        return str(self.__dict__)
 
     def __parse_sub_resources(self, json):
         for data in json:
@@ -32,7 +52,6 @@ class League:
         self.players = [Player(json[str(d)]['player']) for d in range(json['count'])]
 
     def __parse_scoreboard(self, json):
-        self.week = json['week']
         json = json['0']['matchups']
         self.matchups = [Matchup(json[str(d)]['matchup']) for d in range(json['count'])]
 
@@ -68,163 +87,113 @@ class League:
 
 class DraftResult:
     def __init__(self, json):
-        self.pick = json['pick']
-        self.round = json['round']
+        self.pick = as_int(json['pick'])
+        self.round = as_int(json['round'])
         self.team_key = json['team_key']
-        self.__parse_player(json)
-
-    def __parse_player(self, json):
-        if '0' in json:
-            self.player = Player(json['0']['players']['0']['player'])
-        else:
-            self.player_key = json['player_key']
-
+        self.player = Player(json['0']['players']['0']['player'])
+    
+    def __repr__(self):
+        return str(self.__dict__)
 
 class Matchup:
     def __init__(self, json):
-        self.week = json['week']
-        self.week_start = json['week_start']
-        self.week_end = json['week_end']
-        self.status = json['status']
-        self.is_playoffs = json['is_playoffs']
-        self.is_consolation = json['is_consolation']
-        self.stat_winners = json.get('stat_winners')
-        self.is_matchup_recap_available = json.get('is_matchup_recap_available')
-        self.matchup_recap_url = json.get('matchup_recap_url')
-        self.matchup_recap_title = json.get('matchup_recap_title')
-        self.matchup_grades = json.get('matchup_grades')
-        self.is_tied = json.get('is_tied')
-        self.winner_team_key = json.get('winner_team_key')
+        self.week = as_int(json.get('week'))
+        self.week_start = json.get('week_start')
+        self.week_end = json.get('week_end')
+        self.status = json.get('status')
+        self.is_current = self.status == 'midevent'
+        self.is_playoffs = as_bool(json.get('is_playoffs'))
+        self.is_consolation = as_bool(json.get('is_consolation'))
+        self.is_tied = as_bool(json.get('is_tied'))
+        
+        self.__parse_teams(json)
+
+    def __parse_winning_team(self, teams, winning_team_key):
+        return next(team for team in teams if team.key == winning_team_key)
+
+    def __parse_losing_team(self, teams, winning_team_key):
+        return next(team for team in teams if team.key != winning_team_key)
+
+    def __parse_teams(self, json):
+        winning_team_key = json.get('winner_team_key')
         json = json['0']['teams']
-        self.teams = [MatchupTeam(json[str(d)]) for d in range(json['count'])]
+        self.teams = [Team(json[str(t)]['team']) for t in range(json['count'])]
+        if winning_team_key:
+            self.winning_team = self.__parse_winning_team(self.teams, winning_team_key)
+            self.losing_team = self.__parse_losing_team(self.teams, winning_team_key)
 
-
-class MatchupTeam:
-    def __init__(self, json):
-        json = json['team']
-        self.team = Team(json)
-        self.team_points = json[1]['team_points']['total']
-        self.team_stats = self.__parse_team_stats(json[1].get('team_stats', []))
-        self.team_live_projected_points = json[1].get('team_live_projected_points')
-        self.team_projected_points = json[1]['team_projected_points']['total']
-        self.win_probability = json[1].get('win_probability')
-        self.__parse_remaining_games(json[1].get('team_remaining_games', []))
-
-    def __parse_team_stats(self, json):
-        if not json:
-            return []
-        return {d['stat']['stat_id']: d['stat']['value'] for d in json['stats']}
-
-    def __parse_remaining_games(self, json):
-        if not json:
-            return []
-        json = json['total']
-        self.remaining_games = json['remaining_games']
-        self.live_games = json['live_games']
-        self.completed_games = json['completed_games']
-
-
-class LeagueInfo:
-    def __init__(self, json):
-        self.league_key = json['league_key']
-        self.league_id = json['league_id']
-        self.name = json['name']
-        self.url = json['url']
-        self.logo_url = json['logo_url']
-        self.password = json.get('password')
-        self.draft_status = json['draft_status']
-        self.num_teams = json['num_teams']
-        self.edit_key = json['edit_key']
-        self.weekly_deadline = json['weekly_deadline']
-        self.league_update_timestamp = json['league_update_timestamp']
-        self.scoring_type = json['scoring_type']
-        self.league_type = json['league_type']
-        self.renew = json['renew']
-        self.renewed = json['renewed']
-        self.iris_group_chat_id = json['iris_group_chat_id']
-        self.short_invitation_url = json.get('short_invitation_url')
-        self.allow_add_to_dl_extra_pos = json['allow_add_to_dl_extra_pos']
-        self.is_pro_league = json['is_pro_league']
-        self.is_cash_league = json['is_cash_league']
-        self.current_week = json['current_week']
-        self.start_week = json['start_week']
-        self.start_date = json['start_date']
-        self.end_week = json['end_week']
-        self.end_date = json['end_date']
-        self.game_code = json['game_code']
-        self.season = json['season']
+    def __repr__(self):
+        return str(self.__dict__)
 
 
 class Settings:
     def __init__(self, json):
         json = json[0]
-        self.draft_type = json['draft_type']
-        self.is_auction_draft = json['is_auction_draft']
-        self.scoring_type = json['scoring_type']
+        self.draft_type = json.get('draft_type')
+        self.is_auction = as_bool(json.get('is_auction_draft'))
+        self.scoring_type = json.get('scoring_type')
         self.persistent_url = json.get('persistent_url')
-        self.uses_playoff = json['uses_playoff']
-        self.has_playoff_consolation_games = json['has_playoff_consolation_games']
-        self.playoff_start_week = json['playoff_start_week']
-        self.uses_playoff_reseeding = json['uses_playoff_reseeding']
-        self.uses_lock_eliminated_teams = json['uses_lock_eliminated_teams']
-        self.num_playoff_teams = json['num_playoff_teams']
-        self.num_playoff_consolation_teams = json['num_playoff_consolation_teams']
-        self.has_multiweek_championship = json['has_multiweek_championship']
-        self.uses_roster_import = json['uses_roster_import']
-        self.roster_import_deadline = json['roster_import_deadline']
-        self.waiver_type = json['waiver_type']
-        self.waiver_rule = json['waiver_rule']
-        self.uses_faab = json['uses_faab']
-        self.draft_time = json['draft_time']
-        self.draft_pick_time = json['draft_pick_time']
-        self.post_draft_players = json['post_draft_players']
-        self.max_teams = json['max_teams']
-        self.waiver_time = json['waiver_time']
-        self.trade_end_date = json['trade_end_date']
-        self.trade_ratify_type = json['trade_ratify_type']
-        self.trade_reject_time = json['trade_reject_time']
-        self.player_pool = json['player_pool']
-        self.cant_cut_list = json['cant_cut_list']
-        self.draft_together = json['draft_together']
-        self.can_trade_draft_picks = json['can_trade_draft_picks']
-        self.sendbird_channel_url = json['sendbird_channel_url']
-        self.pickem_enabled = json.get('pickem_enabled')
-        self.uses_fractional_points = json.get('uses_fractional_points')
-        self.uses_negative_points = json.get('uses_negative_points')
-        self.roster_positions = self.__parse_roster_positions(json['roster_positions'])
-        self.stat_categories = self.__parse_stat_categories(json['stat_categories']['stats'], json['stat_modifiers']['stats'])
-        self.divisions = self.__parse_divisions(json.get('divisions', []))
+        self.has_playoff = as_bool(json.get('uses_playoff'))
+        self.has_consolation = as_bool(json.get('has_playoff_consolation_games'))
+        self.playoff_start_week = as_int(json.get('playoff_start_week'))
+        self.has_reseeding = as_bool(json.get('uses_playoff_reseeding'))
+        self.lock_eliminatd_teams = as_bool(json.get('uses_lock_eliminated_teams'))
+        self.num_playoff_teams = as_int(json.get('num_playoff_teams'))
+        self.num_consolation_teams = as_int(json.get('num_playoff_consolation_teams'))
+        self.has_multiweek_championship = json.get('has_multiweek_championship')
+        self.waiver_type = json.get('waiver_type')
+        self.waiver_rule = json.get('waiver_rule')
+        self.uses_faab = as_bool(json.get('uses_faab'))
+        self.seconds_per_pick = as_int(json.get('draft_pick_time'))
+        self.post_draft_players = json.get('post_draft_players')
+        self.max_teams = as_int(json.get('max_teams'))
+        self.days_on_waivers = as_int(json.get('waiver_time'))
+        self.trade_end_date = json.get('trade_end_date')
+        self.trade_ratify_type = json.get('trade_ratify_type')
+        self.days_to_veto = as_int(json.get('trade_reject_time'))
+        self.player_pool = json.get('player_pool')
+        self.cant_cut_list = json.get('cant_cut_list')
+        self.trade_draft_picks = as_bool(json.get('can_trade_draft_picks'))
+        self.fractional_points = as_bool(json.get('uses_fractional_points'))
+        self.negative_points = as_bool(json.get('uses_negative_points'))
+        self.divisions = self.__parse_divisions(json)
+        self.roster_positions = self.__parse_roster_positions(json)
+        self.stat_categories = self.__parse_stat_categories(json)
+    
+    def __repr__(self):
+        return str(self.__dict__)
 
     def __parse_roster_positions(self, json):
-        return [RosterPosition(data['roster_position']) for data in json]
+        json = json.get('roster_positions')
+        return {
+            data['roster_position']['position']: as_int(data['roster_position']['count'])
+            for data in json
+        }
 
-    def __parse_stat_categories(self, categories, modifiers):
-        return [Stat(cat['stat'], mod['stat']) for (cat, mod) in zip(categories, modifiers)]
+    def __parse_stat_categories(self, json):
+        modifiers = {s['stat']['stat_id']: as_float(s['stat']['value']) for s in json['stat_modifiers']['stats']}
+        categories = json['stat_categories']['stats']
+        return [Stat(cat['stat'], modifiers) for cat in categories]
 
     def __parse_divisions(self, json):
+        json = json.get('divisions')
         return [Division(d['division']) for d in json]
 
 
 class Division:
     def __init__(self, json):
-        self.division_id = json['division_id']
+        self.id = as_int(json['division_id'])
         self.name = json['name']
-
-
-class RosterPosition:
-    def __init__(self, json):
-        self.position = json['position']
-        self.position_type = json.get('position_type', '')
-        self.count = int(json['count'])
-
+    
+    def __repr__(self):
+        return str(self.__dict__)
 
 class Stat:
-    def __init__(self, category, modifier):
-        self.stat_id = category['stat_id']
-        self.enabled = category['enabled']
+    def __init__(self, category, modifiers):
+        self.id = category['stat_id']
         self.name = category['name']
         self.display_name = category['display_name']
-        self.sort_order = category['sort_order']
-        self.position_type = category['position_type']
-        self.stat_position_types = [data['stat_position_type']['position_type'] for data in category['stat_position_types']]
-        self.modifier = float(modifier['value'])
+        self.value = modifiers.get(self.id)
+    
+    def __repr__(self):
+        return str(self.__dict__)
