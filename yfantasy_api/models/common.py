@@ -103,7 +103,7 @@ class Player:
         self.name = attributes['name']['full']
         self.first_name = attributes['name']['first']
         self.last_name = attributes['name']['last']
-        self.nfl_team = attributes.get('editorial_team_abbr').upper()
+        self.pro_team = attributes.get('editorial_team_abbr').upper()
         self.team_name = attributes.get('editorial_team_full_name')
         self.number = as_int(attributes.get('uniform_number'))
         self.position = attributes.get('display_position')

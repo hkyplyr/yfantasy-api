@@ -6,17 +6,18 @@ def flatten_attributes(json):
         attributes.update(d)
     return attributes
 
+EMPTY_VALUES = [None, '-', '']
 def as_float(value):
-    if value == '-' or value is None:
+    if value in EMPTY_VALUES:
         return None
     return float(value)
 
 def as_int(value):
-    if value is None or value == '-':
+    if value in EMPTY_VALUES:
         return None
     return int(value)
 
 def as_bool(value):
-    if value is None:
+    if value in EMPTY_VALUES:
         return False
     return True if as_int(value) else False

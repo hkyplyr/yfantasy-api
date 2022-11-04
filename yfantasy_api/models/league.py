@@ -49,7 +49,10 @@ class League:
         self.draft_results = [DraftResult(json[str(d)]['draft_result']) for d in range(json['count'])]
 
     def __parse_players(self, json):
-        self.players = [Player(json[str(d)]['player']) for d in range(json['count'])]
+        if not json:
+            self.players = []
+        else:
+            self.players = [Player(json[str(d)]['player']) for d in range(json['count'])]
 
     def __parse_scoreboard(self, json):
         json = json['0']['matchups']
