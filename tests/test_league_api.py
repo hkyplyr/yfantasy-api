@@ -34,6 +34,12 @@ def test_players(requests_mock):
 
     hasattr(api.league().players(search='search', status='K').get(), sub_resource)
 
+def test_players_empty(requests_mock):
+    path = f'league/nhl.l.123456/players;search=search;status=K'
+    api = YahooFantasyApi(123456, 'nhl', timeout=0)
+    mock_request(requests_mock, path, "players_empty")
+
+    hasattr(api.league().players(search='search', status='K').get(), 'players')
 
 def test_players_with_draft_analysis(requests_mock):
     path = 'league/nhl.l.123456/players;start=0;count=25/draft_analysis'

@@ -1,0 +1,38 @@
+{
+  "fantasy_content": {
+    "league": [
+      {
+        "league_key": "403.l.17457",
+        "league_id": "17457",
+        "name": "Keeper",
+        "url": "https://hockey.fantasysports.yahoo.com/hockey/17457",
+        "logo_url": false,
+        "password": "",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "2021-04-11",
+        "weekly_deadline": "intraday",
+        "league_update_timestamp": "1618161779",
+        "scoring_type": "headpoint",
+        "league_type": "private",
+        "renew": "396_5194",
+        "renewed": "",
+        "iris_group_chat_id": "",
+        "short_invitation_url": "https://hockey.fantasysports.yahoo.com/hockey/17457/invitation?key=d5c9e16696e1dbf4&ikey=19146793ba7dc7e1",
+        "allow_add_to_dl_extra_pos": 1,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": 12,
+        "start_week": "1",
+        "start_date": "2021-01-13",
+        "end_week": "15",
+        "end_date": "2021-05-02",
+        "game_code": "nhl",
+        "season": "2020"
+      },
+      {
+        "players": {}
+      }
+    ]
+  }
+}
