@@ -14,7 +14,7 @@ pip install yfantasy_api
 ### Obtain team information, including the roster with player stats for March 31st 2021
 ``` python
 # The request url created is: /team/nhl.l.12345.t.1/roster/players/stats;type=date;date=2021-03-31
-from yfantasy_api.api import YahooFantasyApi
+from yfantasy_api import YahooFantasyApi
 
 league_id = 12345  # This should be the id of the league you are querying
 game_id = 'nhl'    # This should be the id of the game you are querying
@@ -42,7 +42,7 @@ for player in team.players:
 ### Obtain draft_results, including player information for each pick.
 ``` python
 # The request url created is: /league/nhl.l.12345/draft_results/players
-from yfantasy_api.api import YahooFantasyApi
+from yfantasy_api import YahooFantasyApi
 
 league_id = 12345  # This should be the id of the league you are querying
 game_id = 'nhl'    # This should be the id of the game you are querying

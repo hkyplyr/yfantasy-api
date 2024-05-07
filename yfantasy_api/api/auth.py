@@ -1,17 +1,18 @@
 import json
 import os
-import requests
 import time
 
-ACCESS_TOKEN = 'access_token'
-EXPIRES_BY = 'expires_by'
-EXPIRES_IN = 'expires_in'
-REFRESH_TOKEN = 'refresh_token'
-TOKEN_FILE = '.tokens.json'
+import requests
 
-AUTHORIZE_URL = 'https://api.login.yahoo.com/oauth2/request_auth'
-TOKEN_URL = 'https://api.login.yahoo.com/oauth2/get_token'
-BASE_URL = 'https://fantasysports.yahooapis.com/fantasy/v2'
+ACCESS_TOKEN = "access_token"
+EXPIRES_BY = "expires_by"
+EXPIRES_IN = "expires_in"
+REFRESH_TOKEN = "refresh_token"
+TOKEN_FILE = ".tokens.json"
+
+AUTHORIZE_URL = "https://api.login.yahoo.com/oauth2/request_auth"
+TOKEN_URL = "https://api.login.yahoo.com/oauth2/get_token"
+BASE_URL = "https://fantasysports.yahooapis.com/fantasy/v2"
 
 
 class AuthenticationService:
@@ -59,34 +60,31 @@ class AuthenticationService:
         `__client_id`, `__client_secret`, and `__refresh_token`.
         """
         data = {
-            'client_id': self.__client_id,
-            'client_secret': self.__client_secret,
-            'redirect_uri': 'oob',
-            'refresh_token': self.__refresh_token,
-            'grant_type': 'refresh_token',
+            "client_id": self.__client_id,
+            "client_secret": self.__client_secret,
+            "redirect_uri": "oob",
+            "refresh_token": self.__refresh_token,
+            "grant_type": "refresh_token",
         }
 
         tokens = requests.post(TOKEN_URL, data=data).json()
         self.__cache_refreshed_tokens(tokens)
 
     def get_access_token(self):
-        """A simple getter for obtaining the access token.
-        """
+        """A simple getter for obtaining the access token."""
         return self.__access_token
 
     def get_refresh_token(self):
-        """A simple getter for obtaining the refresh token.
-        """
+        """A simple getter for obtaining the refresh token."""
         return self.__refresh_token
 
     def get_expires_by(self):
-        """A simple getter for obtaining the access token expiry.
-        """
+        """A simple getter for obtaining the access token expiry."""
         return self.__expires_by
 
     def __set_credentials(self):
-        self.__client_id = os.getenv('CLIENT_ID')
-        self.__client_secret = os.getenv('CLIENT_SECRET')
+        self.__client_id = os.getenv("CLIENT_ID")
+        self.__client_secret = os.getenv("CLIENT_SECRET")
 
     def __set_tokens(self):
         if os.path.exists(TOKEN_FILE):
@@ -95,7 +93,7 @@ class AuthenticationService:
             self.__get_tokens()
 
     def __load_tokens(self):
-        with open(TOKEN_FILE, 'r') as f:
+        with open(TOKEN_FILE, "r") as f:
             loaded_tokens = json.loads(f.read())
         self.__access_token = loaded_tokens[ACCESS_TOKEN]
         self.__refresh_token = loaded_tokens[REFRESH_TOKEN]
@@ -111,29 +109,27 @@ class AuthenticationService:
 
     def __get_auth_code(self):
         params = {
-            'client_id': self.__client_id,
-            'client_secret': self.__client_secret,
-            'redirect_uri': 'oob',
-            'response_type': 'code',
-            'language': 'en-us',
+            "client_id": self.__client_id,
+            "client_secret": self.__client_secret,
+            "redirect_uri": "oob",
+            "response_type": "code",
+            "language": "en-us",
         }
 
-        headers = {
-            'Content-Type': 'application/json'
-        }
+        headers = {"Content-Type": "application/json"}
 
         response = requests.post(AUTHORIZE_URL, params=params, headers=headers)
         print(response.url)
 
-        return input('Enter code: ')
+        return input("Enter code: ")
 
     def __request_tokens(self, code):
         data = {
-            'client_id': self.__client_id,
-            'client_secret': self.__client_secret,
-            'redirect_uri': 'oob',
-            'code': code,
-            'grant_type': 'authorization_code',
+            "client_id": self.__client_id,
+            "client_secret": self.__client_secret,
+            "redirect_uri": "oob",
+            "code": code,
+            "grant_type": "authorization_code",
         }
 
         return requests.post(TOKEN_URL, data=data).json()
@@ -142,10 +138,10 @@ class AuthenticationService:
         tokens = {
             ACCESS_TOKEN: self.__access_token,
             REFRESH_TOKEN: self.__refresh_token,
-            EXPIRES_BY: self.__expires_by
+            EXPIRES_BY: self.__expires_by,
         }
 
-        with open(TOKEN_FILE, 'w+') as f:
+        with open(TOKEN_FILE, "w+") as f:
             f.write(json.dumps(tokens))
 
     def __cache_refreshed_tokens(self, tokens):

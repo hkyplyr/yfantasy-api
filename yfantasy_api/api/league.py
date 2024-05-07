@@ -30,9 +30,11 @@ class LeagueApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__league_key = f'{self.__yfantasy_api.game_id}.l.{self.__yfantasy_api.league_id}'
-        self.__url = f'league/{self.__league_key}'
-        self.path = ''
+        self.__league_key = (
+            f"{self.__yfantasy_api.game_id}.l.{self.__yfantasy_api.league_id}"
+        )
+        self.__url = f"league/{self.__league_key}"
+        self.path = ""
 
     def draft_results(self):
         """Updates the path to include the `draftresults` sub-resource
@@ -43,7 +45,7 @@ class LeagueApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/draftresults/players'
+        self.path += "/draftresults/players"
         return TerminalApi(self)
 
     def meta(self):
@@ -82,13 +84,13 @@ class LeagueApi:
             performs substring matching for all player names. If a
             match isn't found the list of players will be empy.
         """
-        self.path += f'/players;start={start};count={count}'
+        self.path += f"/players;start={start};count={count}"
 
         if search:
-            self.path += f';search={search}'
+            self.path += f";search={search}"
 
         if status:
-            self.path += f';status={status}'
+            self.path += f";status={status}"
 
         return PlayersCollectionApi(self)
 
@@ -106,10 +108,10 @@ class LeagueApi:
             If nothing is provided the server will default to the
             current week.
         """
-        self.path += '/scoreboard'
+        self.path += "/scoreboard"
 
         if week:
-            self.path += f';week={week}'
+            self.path += f";week={week}"
 
         return TerminalApi(self)
 
@@ -119,7 +121,7 @@ class LeagueApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/settings'
+        self.path += "/settings"
         return TerminalApi(self)
 
     def standings(self):
@@ -128,7 +130,7 @@ class LeagueApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/standings'
+        self.path += "/standings"
         return TerminalApi(self)
 
     def teams(self):
@@ -137,7 +139,7 @@ class LeagueApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/teams'
+        self.path += "/teams"
         return TerminalApi(self)
 
     def transactions(self, ttype=None, team_id=None, count=None, start=None):
@@ -170,19 +172,19 @@ class LeagueApi:
             transaction while `start=1` begins at the second most recent.
             (default: 0)
         """
-        self.path += '/transactions'
+        self.path += "/transactions"
 
-        if ttype in ['waiver', 'pending_trade'] and not team_id:
-            raise Exception(f'\'team_id\' must be provided when using \'{ttype}\'.')
+        if ttype in ["waiver", "pending_trade"] and not team_id:
+            raise Exception(f"'team_id' must be provided when using '{ttype}'.")
 
         if ttype:
-            self.path += f';type={ttype}'
+            self.path += f";type={ttype}"
         if team_id:
-            self.path += f';team_key={self.__league_key}.t.{team_id}'
+            self.path += f";team_key={self.__league_key}.t.{team_id}"
         if count:
-            self.path += f';count={count}'
+            self.path += f";count={count}"
         if start:
-            self.path += f';start={start}'
+            self.path += f";start={start}"
 
         return TerminalApi(self)
 
@@ -191,7 +193,7 @@ class LeagueApi:
 
         The response json is transformed into a League model
         """
-        return League(self.__yfantasy_api.get(f'{self.__url}{self.path}')['league'])
+        return League(self.__yfantasy_api.get(f"{self.__url}{self.path}")["league"])
 
 
 class PlayersCollectionApi:
@@ -223,7 +225,7 @@ class PlayersCollectionApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.__parent_api.path += '/draft_analysis'
+        self.__parent_api.path += "/draft_analysis"
         return TerminalApi(self.__parent_api)
 
     def ownership(self):
@@ -232,7 +234,7 @@ class PlayersCollectionApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.__parent_api.path += '/ownership'
+        self.__parent_api.path += "/ownership"
         return TerminalApi(self.__parent_api)
 
     def percent_owned(self):
@@ -241,7 +243,7 @@ class PlayersCollectionApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.__parent_api.path += '/percent_owned'
+        self.__parent_api.path += "/percent_owned"
         return TerminalApi(self.__parent_api)
 
     def stats(self, date=None, season=None, week=None):
@@ -270,22 +272,23 @@ class PlayersCollectionApi:
             filter.
         """
         coverage_filter = self.__build_coverage_filter(date, season, week)
-        self.__parent_api.path += f'/stats{coverage_filter}'
+        self.__parent_api.path += f"/stats{coverage_filter}"
         return TerminalApi(self.__parent_api)
 
     def get(self):
-        """Invoke the parent API `get()` call
-        """
+        """Invoke the parent API `get()` call"""
         return self.__parent_api.get()
 
     def __build_coverage_filter(self, date, season, week):
         if bool(date) + bool(season) + bool(week) > 1:
-            raise Exception('Only one of \'date\', \'season\', or \'week\' should be provided.')
+            raise Exception(
+                "Only one of 'date', 'season', or 'week' should be provided."
+            )
         elif date:
-            return f';type=date;date={date}'
+            return f";type=date;date={date}"
         elif season:
-            return f';type=season;season={season}'
+            return f";type=season;season={season}"
         elif week:
-            return f';type=week;week={week}'
+            return f";type=week;week={week}"
         else:
-            return ''
+            return ""

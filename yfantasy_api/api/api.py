@@ -1,6 +1,7 @@
-import requests
 import sys
 import time
+
+import requests
 
 from yfantasy_api.api.auth import AuthenticationService
 from yfantasy_api.api.game import GameApi, GamesApi
@@ -41,7 +42,7 @@ class YahooFantasyApi:
         request. Used to avoid errors caused by too many requests
     """
 
-    base_url = 'https://fantasysports.yahooapis.com/fantasy/v2'
+    base_url = "https://fantasysports.yahooapis.com/fantasy/v2"
 
     def __init__(self, league_id, game_id, timeout=1):
         self.league_id = league_id
@@ -107,15 +108,15 @@ class YahooFantasyApi:
 
     def __get_resource(self, path):
         self.__check_tokens()
-        params = {'format': 'json'}
-        headers = {'Authorization': 'Bearer {}'.format(self.access_token)}
-        url = '{}/{}'.format(self.base_url, path)
+        params = {"format": "json"}
+        headers = {"Authorization": "Bearer {}".format(self.access_token)}
+        url = "{}/{}".format(self.base_url, path)
 
         time.sleep(self.__timeout)
 
         response = requests.get(url, params=params, headers=headers)
         if response.status_code == 200:
-            return response.json()['fantasy_content']
+            return response.json()["fantasy_content"]
         else:
             print(response.status_code, response.text)
             sys.exit()

@@ -27,8 +27,8 @@ class GamesApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__url = 'games'
-        self.path = ''
+        self.__url = "games"
+        self.path = ""
 
     def get(self, is_available=None, game_codes=[], seasons=[]):
         """Invoke the Yahoo Fantasy API GET call to query the Game Collections
@@ -49,16 +49,16 @@ class GamesApi:
                 the list of games
         """
         if is_available is not None:
-            self.path += f';is_available={int(is_available)}'
+            self.path += f";is_available={int(is_available)}"
         if game_codes:
-            game_codes = ','.join(game_codes)
-            self.path += f';game_codes={game_codes}'
+            game_codes = ",".join(game_codes)
+            self.path += f";game_codes={game_codes}"
         if seasons:
-            seasons = ','.join(map(str, seasons))
-            self.path += f';seasons={seasons}'
+            seasons = ",".join(map(str, seasons))
+            self.path += f";seasons={seasons}"
 
-        games = self.__yfantasy_api.get(f'{self.__url}{self.path}')['games']
-        return [Game(games[str(d)]['game']) for d in range(games['count'])]
+        games = self.__yfantasy_api.get(f"{self.__url}{self.path}")["games"]
+        return [Game(games[str(d)]["game"]) for d in range(games["count"])]
 
 
 class GameApi:
@@ -86,8 +86,8 @@ class GameApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__url = f'game/{self.__yfantasy_api.game_id}'
-        self.path = ''
+        self.__url = f"game/{self.__yfantasy_api.game_id}"
+        self.path = ""
 
     def game_weeks(self):
         """Updates the path to include the `game_weeks` sub-resource
@@ -95,7 +95,7 @@ class GameApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/game_weeks'
+        self.path += "/game_weeks"
         return TerminalApi(self)
 
     def position_types(self):
@@ -104,7 +104,7 @@ class GameApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/position_types'
+        self.path += "/position_types"
         return TerminalApi(self)
 
     def roster_positions(self):
@@ -113,7 +113,7 @@ class GameApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/roster_positions'
+        self.path += "/roster_positions"
         return TerminalApi(self)
 
     def stat_categories(self):
@@ -122,7 +122,7 @@ class GameApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/stat_categories'
+        self.path += "/stat_categories"
         return TerminalApi(self)
 
     def get(self):
@@ -130,4 +130,4 @@ class GameApi:
 
         The response json is transformed into a Game model
         """
-        return Game(self.__yfantasy_api.get(f'{self.__url}{self.path}')['game'])
+        return Game(self.__yfantasy_api.get(f"{self.__url}{self.path}")["game"])

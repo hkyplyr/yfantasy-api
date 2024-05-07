@@ -32,8 +32,8 @@ class UserApi:
             the http request
         """
         self.__yfantasy_api = yfantasy_api
-        self.__url = 'users;use_login=1'
-        self.path = ''
+        self.__url = "users;use_login=1"
+        self.path = ""
 
     def meta(self):
         """Leaves the path empty to make the call return meta information
@@ -49,7 +49,7 @@ class UserApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/games'
+        self.path += "/games"
         return TerminalApi(self)
 
     def teams(self):
@@ -58,7 +58,7 @@ class UserApi:
         Returns a TerminalApi object that provides a `get()` call to
         invoke the query.
         """
-        self.path += '/teams'
+        self.path += "/teams"
         return TerminalApi(self)
 
     def get(self):
@@ -66,4 +66,6 @@ class UserApi:
 
         The response json is transformed into a User model
         """
-        return User(self.__yfantasy_api.get(f'{self.__url}{self.path}')['users']['0']['user'])
+        return User(
+            self.__yfantasy_api.get(f"{self.__url}{self.path}")["users"]["0"]["user"]
+        )

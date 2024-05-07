@@ -26,6 +26,5 @@ class TerminalApi:
         self.__parent_api = parent_api
 
     def get(self):
-        """Invoke the parent API `get()` call
-        """
+        """Invoke the parent API `get()` call"""
         return self.__parent_api.get()
