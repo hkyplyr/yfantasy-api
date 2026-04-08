@@ -17,5 +17,5 @@ pytest-mock==3.14.0
 requests==2.32.2
 requests-mock==1.12.1
 setuptools==70.0.0
-urllib3==2.2.2
+urllib3==2.6.3
 
