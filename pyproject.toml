@@ -1,0 +1,29 @@
+[project]
+name = "yfantasy-api"
+version = "0.1.0"
+description = "Python package to access the Yahoo! Fantasy APIs"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "certifi>=2024.7.4",
+    "charset-normalizer>=3.3.2",
+    "click>=8.3.2",
+    "coverage>=7.13.5",
+    "idna>=3.7",
+    "iniconfig>=2.0.0",
+    "mypy-extensions==1.0.0",
+    "packaging>=24.0",
+    "pathspec>=1.0.4",
+    "platformdirs>=4.9.6",
+    "pluggy>=1.5.0",
+    "requests>=2.33.0",
+    "urllib3>=2.6.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.0.3",
+    "pytest-cov==7.1.0",
+    "pytest-mock==3.15.1",
+    "requests-mock==1.12.1",
+]
